@@ -1,34 +1,17 @@
-import { Link } from "react-router-dom";
-import "../index.css"; // optional if separating styles
+import "../index.css"; // or app.css if you prefer
 
-export default function Home() {
+
+export default function Backpacking() {
   return (
-    <>
-      <header className="navbar">
-        <div className="nav-inner">
-          <div className="brand">Your Name</div>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/poems">Poems</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/backpacking">Backpacking</Link>
-            <Link to="/projects">Projects</Link>
-          </nav>
-        </div>
-      </header>
-
-      <main>
-        <h1>Welcome.</h1>
-        <p>
-          This is a quiet corner of the internet — a space for writing,
-          wandering, and building.
-        </p>
-
-        <p>
-          Here you'll find poems, long trails, unfinished ideas,
-          and projects in progress.
-        </p>
-      </main>
-    </>
+    <div className="backpacking-page">
+      <div className="backpacking-logos">
+        <a href="https://vsco.co/rowrowrosh/" target="_blank" rel="noopener noreferrer">
+          <img src="/vsco.svg" alt="VSCO Logo" />
+        </a>
+        <a href="https://maps.google.com/" target="_blank" rel="noopener noreferrer">
+          <img src="/google-maps.svg" alt="Google Maps Logo" />
+        </a>
+      </div>
+    </div>
   );
 }
