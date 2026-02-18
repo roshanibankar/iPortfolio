@@ -1,21 +1,9 @@
-import { Link } from "react-router-dom";
 import "../index.css"; // optional if separating styles
 
 export default function Home() {
   return (
     <>
-      <header className="navbar">
-        <div className="nav-inner">
-          <div className="brand">Your Name</div>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/poems">Poems</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/backpacking">Backpacking</Link>
-            <Link to="/projects">Projects</Link>
-          </nav>
-        </div>
-      </header>
+      
 
       <main>
         <h1>Welcome.</h1>

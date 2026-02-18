@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="navbar">
       <nav className="nav-links">
         <Link to="/">Home</Link>
-        <Link to="/writings">Field Notes</Link>
+        <Link to="/writings">Blog</Link>
         <Link to="/resume">Resume</Link>
         <Link to="/backpacking">Backpacking</Link>
         <Link to="/projects">Projects</Link>

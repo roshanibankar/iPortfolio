@@ -223,8 +223,8 @@ body {
 }
 
 .contact-icons a img {
-  width: 32px;       /* adjust size as needed */
-  height: 32px;
+  width: 23px;       /* adjust size as needed */
+  height: 23px;
   object-fit: contain;
   transition: transform 0.25s, filter 0.25s;
 }
@@ -234,27 +234,112 @@ body {
   filter: brightness(1.2);        /* optional brightness effect */
 }
 
-
 .backpacking-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* full screen height */
-  background-color: #f9f9f9; /* optional */
+  min-height: 100vh;
 }
 
 .backpacking-logos {
   display: flex;
-  gap: 3rem; /* space between the two logos */
+  gap: 4rem;
+  align-items: flex-start; /* align top so branch starts below */
 }
 
-.backpacking-logos a img {
-  width: 80px;     /* adjust size as needed */
-  height: auto;
-  transition: transform 0.25s, filter 0.25s;
+.backpacking-logo {
+  width: 120px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.backpacking-logos a:hover img {
-  transform: scale(1.1);     /* subtle zoom on hover */
-  filter: brightness(1.2);   /* optional hover effect */
+.backpacking-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Maps branching menu */
+.maps-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* start branch from left */
+}
+
+.maps-branch {
+  list-style: none;
+  margin: 0.5rem 0 0 0; /* small gap below logo */
+  padding-left: 1rem;   /* indent for branch */
+  border-left: 2px solid #aaa; /* branch line */
+}
+
+.maps-branch li {
+  margin: 0.3rem 0;
+}
+
+.maps-branch li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.maps-branch li a:hover {
+  color: #2b2b2b;
+  font-weight: 700;
+}
+
+
+
+
+.blog-hero {
+  width: 100%;
+  padding: 4rem 2rem 2rem;
+  background-color: #f9f9f9;
+  text-align: left; /* Align heading to left */
+}
+
+.blog-heading {
+  font-family: "Ivy Mode", serif;
+  font-weight: 700; /* bold */
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: #555; /* grey */
+  margin-bottom: 1rem;
+  text-align: left; /* align left */
+}
+
+.blog-list {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* close spacing */
+}
+
+.blog-post {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.blog-title {
+  font-family: "Ivy Mode", serif;
+  font-size: 1rem;
+  color: #1a4dff; /* 90s blue */
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+
+}
+
+.blog-title:hover {
+  color: #0033cc;
+  text-decoration: underline;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: #888; /* subtle grey for date */
 }

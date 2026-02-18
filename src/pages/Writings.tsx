@@ -1,34 +1,32 @@
-import { Link } from "react-router-dom";
-import "../index.css"; // optional if separating styles
+import "../index.css";
 
-export default function Home() {
+const blogPosts = [
+  { title: "Blog1", link: "/blog/urban-architecture", date: "Feb 12, 2026" },
+  { title: "Blog2", link: "/blog/backpacking-patagonia", date: "Jan 25, 2026" },
+  { title: "Blog3", link: "/blog/ai-architecture", date: "Dec 10, 2025" },
+];
+
+export default function Blog() {
   return (
-    <>
-      <header className="navbar">
-        <div className="nav-inner">
-          <div className="brand">Poems</div>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/poems">Poems</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/backpacking">Backpacking</Link>
-            <Link to="/projects">Projects</Link>
-          </nav>
+    <div className="blog-page">
+
+      {/* Hero Section */}
+      <section className="blog-hero">
+        <div className="hero-content">
+          <h1 className="blog-heading">Blog & Poems</h1>
         </div>
-      </header>
+      </section>
 
-      <main>
-        <h1>Welcome.</h1>
-        <p>
-          This is a quiet corner of the internet — a space for writing,
-          wandering, and building.
-        </p>
-
-        <p>
-          Here you'll find poems, long trails, unfinished ideas,
-          and projects in progress.
-        </p>
+      {/* Blog List */}
+      <main className="blog-list">
+        {blogPosts.map((post, index) => (
+          <article key={index} className="blog-post">
+            <a href={post.link} className="blog-title">{post.title}</a>
+            <span className="blog-date">{post.date}</span>
+          </article>
+        ))}
       </main>
-    </>
+
+    </div>
   );
 }
