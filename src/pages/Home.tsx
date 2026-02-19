@@ -6,7 +6,7 @@ export default function Home() {
     "Roshani Bankar",
     "an architectural designer and an engineer",
     "a content writer",
-    "a video editor, an artist,a cat lover, a backpacking enthusiast",
+    "a video editor, an artist, a cat lover, a backpacking enthusiast",
   ];
 
   return (
