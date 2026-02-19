@@ -14,21 +14,22 @@ export default function Home() {
 
 
       {/* Hero Section */}
-      <section className="home-hero">
-        <div className="hero-content">
-          <h1>
-            Hello, I am
-            <span className="typewriter-line">
-              <Typewriter
-                texts={dynamicPhrases}
-                typingSpeed={80}
-                deletingSpeed={40}
-                pauseTime={1500}
-              />
-            </span>
-          </h1>
-        </div>
-      </section>
+<section className="home-hero">
+  <div className="hero-content">
+    <h1 style={{ fontWeight: 700, textShadow: "1px 1px 2px rgba(0,0,0,0.3)" }}>
+      Hello, I am{" "}
+      <span className="typewriter-line">
+        <Typewriter
+          texts={dynamicPhrases}  // e.g. ["a Developer", "a Designer", "a Traveller"]
+          typingSpeed={80}
+          deletingSpeed={40}
+          pauseTime={1500}
+        />
+      </span>
+    </h1>
+  </div>
+</section>
+
 
       {/* Main Content */}
       <main className="home-body">

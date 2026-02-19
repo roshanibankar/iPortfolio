@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 type Props = {
-  texts: string[]        // phrases to loop through
+  texts: string[]
   typingSpeed?: number
   deletingSpeed?: number
   pauseTime?: number
@@ -9,9 +9,9 @@ type Props = {
 
 export default function Typewriter({
   texts,
-  typingSpeed = 80,
-  deletingSpeed = 40,
-  pauseTime = 1500,
+  typingSpeed = 700,
+  deletingSpeed = 30,
+  pauseTime = 1700,
 }: Props) {
   const [displayedText, setDisplayedText] = useState("")
   const [textIndex, setTextIndex] = useState(0)
@@ -43,5 +43,34 @@ export default function Typewriter({
     return () => clearTimeout(timeout)
   }, [displayedText, isDeleting, textIndex, texts, typingSpeed, deletingSpeed, pauseTime])
 
-  return <span>{displayedText}</span>
+  const style: React.CSSProperties = {
+    fontWeight: 700,
+    textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)",
+  }
+
+  return (
+    <span style={style}>
+      {displayedText}
+      {(displayedText.length !== texts[textIndex].length || isDeleting) && (
+        <span
+          style={{
+            display: "inline-block",
+            marginLeft: 2,
+            width: 10,
+            animation: "blink 1s steps(2, start) infinite",
+            color: "inherit",
+            fontWeight:50,
+          }}
+        >
+          |
+          <style>{`
+            @keyframes blink {
+              0%, 100% { opacity: 1; }
+              50% { opacity: 0; }
+            }
+          `}</style>
+        </span>
+      )}
+    </span>
+  )
 }
