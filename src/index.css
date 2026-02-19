@@ -1,11 +1,10 @@
-
 /* Reset default margins/padding */
 html, body, #root {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden; /* prevent horizontal scrollbar */
+  overflow-x: hidden;
 }
 .home-body {
   max-width: 720px;
@@ -14,8 +13,8 @@ html, body, #root {
 }
 
 .typewriter-line {
-  display: block; /* forces next line */
-  margin-top: 0.3rem; /* optional spacing */
+  display: block; 
+  margin-top: 0.3rem; 
 }
 
 /* NAVBAR (top-left, simple) */
@@ -31,10 +30,10 @@ html, body, #root {
   letter-spacing: 0.05em;
 }
 
-/* Default state — light grey */
+
 .nav-links a {
   text-decoration: none;
-  color: rgb(81, 80, 80);     /* light grey */
+  color: rgb(81, 80, 80); 
   margin: 0 0.4rem;
   font-weight: 700;
   transition: color 0.2s ease, font-weight 0.2s ease;
@@ -44,16 +43,17 @@ html, body, #root {
 .nav-links a:not(:last-child)::after {
   content: " | ";
   margin-left: 0.4rem;
-  color: rgb(100, 100, 100);    /* same light grey */
+  color: rgb(100, 100, 100);   
 }
 
 /* Hover state — darker grey + bold */
 .nav-links a:hover {
-  color: rgb(90, 90, 90);      /* dark grey */
+  color: rgb(90, 90, 90);     
   font-weight: 500;
 }
 
 
+/*----------------------------------------------------------*/
 
 
 /* HERO SECTION FULL-BLEED */
@@ -100,6 +100,8 @@ body {
 .hero-content p {
   font-size: clamp(1rem, 2vw, 1.3rem);
 }
+
+/*----------------------------------------------------------*/
 
 /* MAIN CONTENT */
 .home-body {
@@ -234,6 +236,9 @@ body {
   filter: brightness(1.2);        /* optional brightness effect */
 }
 
+/*----------------------------------------------------------*/
+
+
 .backpacking-page {
   display: flex;
   justify-content: center;
@@ -288,6 +293,7 @@ body {
   font-weight: 700;
 }
 
+/*----------------------------------------------------------*/
 
 
 
@@ -343,3 +349,391 @@ body {
   font-size: 0.9rem;
   color: #888; /* subtle grey for date */
 }
+
+/*----------------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+.resume-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  font-family: "Ivy Mode", serif;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+/* HEADER */
+.resume-heading {
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 900; /* super bold */
+  color: #555;
+  margin-bottom: 5rem; /* more space below heading */
+}
+
+/* SECTION TITLES */
+.resume-section-title {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400; 
+  color: #333;
+  margin-bottom: 3rem; /* extra space after section title */
+}
+
+/* ICONS */
+.item-icon {
+  width: 120px;      /* bigger icons */
+  height: 120px;
+  flex-shrink: 0;
+  opacity: 0.85;
+  margin-top: 0;     /* align top with first line of text */
+}
+
+/* ITEM TITLES */
+.org-name {
+  font-weight: 400; 
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 0.5rem; /* space between org and role */
+}
+
+.role-name {
+  font-weight: 900; 
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.7rem; /* extra spacing before meta */
+}
+
+/* META & SUBMETA */
+.resume-meta {
+  font-size: 1rem;
+  color: #888;
+  display: block;
+  margin-bottom: 0.7rem; /* space before description */
+}
+
+.resume-submeta {
+  font-size: 0.9rem;
+  color: #aaa;
+  display: block;
+  margin-bottom: 1rem; /* spacing after submeta */
+}
+
+/* DESCRIPTION */
+.resume-item p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.9; /* airy line height */
+  margin-top: 0.7rem;
+}
+
+/* CERTIFICATIONS */
+.cert-link {
+  color: #1a4dff;
+  text-decoration: none;
+}
+
+.cert-link:hover {
+  color: #0033cc;
+  text-decoration: underline;
+}
+
+/* ITEM FLEX */
+.resume-item {
+  display: flex;
+  align-items: flex-start; /* top-align icons and text */
+  gap: 2rem; /* more space between icon and text */
+  margin-bottom: 4rem; /* bigger gap between items */
+}
+
+/* SECTIONS */
+.resume-section {
+  margin-bottom: 7rem; /* more space between Experience / Certifications / Education */
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .item-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .resume-section-title {
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+  }
+  .resume-heading {
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .resume-section-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .resume-heading {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+}
+
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+.projects-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 120px;
+
+  /* Add letter and word spacing */
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+
+
+/* Project item */
+.project-item {
+  width: 55%;
+}
+
+/* Preview */
+.project-preview {
+  cursor: pointer;
+  text-align: center;
+}
+
+.project-preview img {
+  width: 50%;           /* preview width */
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-preview:hover img {
+  transform: scale(1.05);
+}
+
+/* Meta */
+.project-meta {
+  margin-top: 25px;
+}
+
+.project-meta h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.project-meta p {
+  margin-top: 6px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* Full-width horizontal scroll */
+.project-expanded {
+  margin-top: 40px;
+
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
+
+/* Horizontal scroll container */
+.horizontal-scroll {
+  display: flex;
+  gap: 80px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0 40px 60px 40px;
+}
+
+/* Scroll blocks */
+.scroll-block {
+  flex-shrink: 0;
+}
+
+/* Image blocks inside scroll */
+.image-block img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Text blocks inside scroll */
+.text-block {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-block h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.text-block p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.text-block a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+/* Close button */
+.close-btn {
+  margin-top: 20px;
+  background: none;
+  border: 1px solid #333;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Title block styling in horizontal scroll */
+.title-block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-block h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.title-block p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* ===================== */
+/* MOBILE RESPONSIVE */
+@media (max-width: 1024px) {
+  .project-item {
+    width: 70%;
+  }
+
+  .project-preview img {
+    width: 70%;
+    height: 200px;
+  }
+
+  .horizontal-scroll {
+    gap: 40px;
+    padding: 0 20px 40px 20px;
+  }
+
+  .image-block img {
+    height: 350px;
+  }
+
+  .text-block {
+    width: 300px;
+  }
+
+  .text-block h3 {
+    font-size: 20px;
+  }
+
+  .title-block {
+    width: 250px;
+  }
+
+  .title-block h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    width: 90%;
+  }
+
+  .project-preview img {
+    width: 80%;
+    height: 180px;
+  }
+
+  .horizontal-scroll {
+    gap: 30px;
+    padding: 0 15px 30px 15px;
+  }
+
+  .image-block img {
+    height: 250px;
+  }
+
+  .text-block {
+    width: 220px;
+  }
+
+  .text-block h3 {
+    font-size: 18px;
+  }
+
+  .title-block {
+    width: 200px;
+  }
+
+  .title-block h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-preview img {
+    width: 90%;
+    height: 150px;
+  }
+
+  .image-block img {
+    height: 200px;
+  }
+
+  .text-block {
+    width: 180px;
+  }
+
+  .title-block {
+    width: 180px;
+  }
+
+  .title-block h2 {
+    font-size: 18px;
+  }
+
+  .text-block h3 {
+    font-size: 16px;
+  }
+
+  .text-block p {
+    font-size: 14px;
+  }
+}
+
+

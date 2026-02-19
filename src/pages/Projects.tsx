@@ -1,22 +1,145 @@
-import "../index.css"; // optional if separating styles
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import "../index.css";
 
-export default function Home() {
+interface Project {
+  id: number;
+  title: string;
+  location: string;
+  images: string[];
+}
+
+const projects: Project[] = [
+  {
+    id: 1,
+    title: "Athletics Las Vegas Ballpark",
+    location: "Las Vegas, United States",
+    images: ["/home-bg.jpg", "/home-bg.jpg", "/home-bg.jpg"],
+  },
+  {
+    id: 2,
+    title: "BIG HQ",
+    location: "Copenhagen, Denmark",
+    images: ["/home-bg.jpg", "/home-bg.jpg", "/home-bg.jpg"],
+  },
+];
+
+export default function Projects() {
+  const [activeProject, setActiveProject] = useState<number | null>(null);
+
   return (
-    <>
-    
+    <div className="projects-container">
+      {projects.map((project) => {
+        const isActive = activeProject === project.id;
 
-      <main>
-        <h1>Welcome.</h1>
-        <p>
-          This is a quiet corner of the internet — a space for writing,
-          wandering, and building.
-        </p>
+        return (
+          <div key={project.id} className="project-item">
 
-        <p>
-          Here you'll find poems, long trails, unfinished ideas,
-          and projects in progress.
-        </p>
-      </main>
-    </>
+            {/* Preview */}
+            {!isActive && (
+              <motion.div
+                className="project-preview"
+                onClick={() => setActiveProject(project.id)}
+                layoutId={`project-${project.id}`}
+              >
+                <img src={project.images[0]} alt={project.title} />
+                <div className="project-meta">
+                  <h2>{project.title}</h2>
+                  <p>{project.location}</p>
+                </div>
+              </motion.div>
+            )}
+
+            {/* Horizontal Scroll */}
+            <AnimatePresence>
+              {isActive && (
+                <motion.div
+                  className="project-expanded"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  layoutId={`project-${project.id}`}
+                >
+                  <div className="horizontal-scroll">
+
+                    {/* First block: Project title/text */}
+                    <motion.div
+                      className="scroll-block text-block title-block"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0 }}
+                    >
+                      <h2>{project.title}</h2>
+                      <p>{project.location}</p>
+                    </motion.div>
+
+                    {/* Second block: clicked image */}
+                    <motion.div
+                      className="scroll-block image-block"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 }}
+                    >
+                      <img src={project.images[0]} alt={project.title} />
+                    </motion.div>
+
+                     {/* Additional text blocks */}
+                    <motion.div
+                      className="scroll-block text-block"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.5 }}
+                    >
+                      <h3>Project Overview</h3>
+                      <p>
+                        Placeholder architectural description, materials, urban integration.
+                      </p>
+                      <a href="#">View Case Study →</a>
+                    </motion.div>
+
+                    {/* Remaining images */}
+                    {project.images.slice(1).map((img, idx) => (
+                      <motion.div
+                        key={idx}
+                        className="scroll-block image-block"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.2 + idx * 0.1 }}
+                      >
+                        <img src={img} alt={`Gallery ${idx}`} />
+                      </motion.div>
+                    ))}
+
+                   
+
+                    <motion.div
+                      className="scroll-block text-block"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.6 }}
+                    >
+                      <h3>Design Strategy</h3>
+                      <p>
+                        Integrates landscape and city movement, layered spatial rhythm.
+                      </p>
+                      <a href="#">Download PDF →</a>
+                    </motion.div>
+
+                  </div>
+
+                  <button
+                    className="close-btn"
+                    onClick={() => setActiveProject(null)}
+                  >
+                    Close
+                  </button>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+          </div>
+        );
+      })}
+    </div>
   );
 }
