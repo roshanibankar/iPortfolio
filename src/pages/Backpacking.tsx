@@ -24,13 +24,13 @@ export default function Backpacking() {
 
         {/* VSCO Logo (simple link) */}
         <a href="https://vsco.co/rowrowrosh/" target="_blank" rel="noopener noreferrer">
-          <img src="/vsco.svg" alt="VSCO Logo" className="backpacking-logo" />
+          <img src="/iPortfolio/logos/vsco.svg" alt="VSCO Logo" className="backpacking-logo" />
         </a>
 
         {/* Google Maps Logo (branch menu) */}
         <div className="maps-container">
           <img
-            src="/google-maps.svg"
+            src="/iPortfolio/logos/google-maps.svg"
             alt="Google Maps Logo"
             className="backpacking-logo"
             onClick={() => setMapsOpen(!mapsOpen)}
