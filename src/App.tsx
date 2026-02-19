@@ -1,13 +1,11 @@
 import './index.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Backpacking from './pages/Backpacking';
 import Resume from './pages/Resume';
 import Writings from './pages/Writings';
 import Navbar from './components/Navbar';
-
-
 
 function App() {
   return (
@@ -21,7 +19,6 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
     </Router>
-
   );
 }
 
