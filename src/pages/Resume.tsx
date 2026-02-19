@@ -23,7 +23,7 @@ export default function Resume() {
         </div>
 
         <div className="resume-item">
-          <img src="/unisec.png" alt="UNISEC-Global" className="item-icon" />
+          <img src="/logos/unisec.png" alt="UNISEC-Global" className="item-icon" />
           <div>
             <span className="org-name">UNISEC-Global</span>
             <span className="role-name">Student Research Assistant</span>
@@ -32,7 +32,7 @@ export default function Resume() {
         </div>
 
         <div className="resume-item">
-          <img src="/samsung.png" alt="Samsung" className="item-icon" />
+          <img src="/logos/samsung.png" alt="Samsung" className="item-icon" />
           <div>
             <span className="org-name">Samsung Innovation Campus</span>
             <span className="role-name">Data Analytics Trainee</span>
@@ -46,7 +46,7 @@ export default function Resume() {
         <h2 className="resume-section-title">Certifications</h2>
 
         <div className="resume-item">
-          <img src="/columbia.png" alt="Columbia University" className="item-icon" />
+          <img src="/logos/columbia.png" alt="Columbia University" className="item-icon" />
           <div>
             <span className="org-name">
               <a
@@ -64,7 +64,7 @@ export default function Resume() {
         </div>
 
         <div className="resume-item">
-          <img src="/harvard.svg" alt="Harvard University" className="item-icon" />
+          <img src="/logos/harvard.svg" alt="Harvard University" className="item-icon" />
           <div>
             <span className="org-name">
               <a
@@ -87,7 +87,7 @@ export default function Resume() {
         <h2 className="resume-section-title">Education</h2>
 
         <div className="resume-item">
-          <img src="/cit.png" alt="Cambridge Institute of Technology" className="item-icon" />
+          <img src="/logos/cit.png" alt="Cambridge Institute of Technology" className="item-icon" />
           <div>
             <span className="org-name">Cambridge Institute of Technology</span>
             <span className="role-name">B.Tech, Electrical & Electronics Engineering</span>
@@ -97,7 +97,7 @@ export default function Resume() {
         </div>
 
         <div className="resume-item">
-          <img src="/sp.png" alt="SP College" className="item-icon" />
+          <img src="/logos/sp.png" alt="SP College" className="item-icon" />
           <div>
             <span className="org-name">SP College</span>
             <span className="resume-meta">Graduated 2021</span>
@@ -105,7 +105,7 @@ export default function Resume() {
         </div>
 
         <div className="resume-item">
-          <img src="/st-anne's.png" alt="St. Anne’s High School" className="item-icon" />
+          <img src="/logos/st-anne's.png" alt="St. Anne’s High School" className="item-icon" />
           <div>
             <span className="org-name">St. Anne’s High School</span>
             <span className="resume-meta">Graduated 2019</span>

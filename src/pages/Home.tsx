@@ -58,13 +58,13 @@ export default function Home() {
   <h2>Links</h2>
   <div className="contact-icons">
     <a href="https://github.com/roshanibankar" target="_blank" rel="noopener noreferrer">
-      <img src="/github.svg" alt="GitHub logo" />
+      <img src="/logos/github.svg" alt="GitHub logo" />
     </a>
     <a href="https://www.youtube.com/@RoshLogs" target="_blank" rel="noopener noreferrer">
-      <img src="/youtube.svg" alt="YouTube logo" />
+      <img src="/logos/youtube.svg" alt="YouTube logo" />
     </a>
     <a href="https://www.instagram.com/roshanibankar._" target="_blank" rel="noopener noreferrer">
-      <img src="/instagram.svg" alt="Instagram logo" />
+      <img src="/logos/instagram.svg" alt="Instagram logo" />
     </a>
   </div>
 
