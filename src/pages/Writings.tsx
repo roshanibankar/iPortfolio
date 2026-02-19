@@ -1,7 +1,7 @@
 import "../index.css";
 
 const blogPosts = [
-  { title: "Blog1", link: "/blog/urban-architecture", date: "Feb 12, 2026" },
+  { title: "Blog1", link: "/iPortfolio/blog/maybe-i-found-him.md", date: "Feb 28, 2023" },
   { title: "Blog2", link: "/blog/backpacking-patagonia", date: "Jan 25, 2026" },
   { title: "Blog3", link: "/blog/ai-architecture", date: "Dec 10, 2025" },
 ];

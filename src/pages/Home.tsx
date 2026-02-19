@@ -20,7 +20,7 @@ export default function Home() {
       Hello, I am{" "}
       <span className="typewriter-line">
         <Typewriter
-          texts={dynamicPhrases}  // e.g. ["a Developer", "a Designer", "a Traveller"]
+          texts={dynamicPhrases} 
           typingSpeed={80}
           deletingSpeed={40}
           pauseTime={1500}
@@ -40,17 +40,16 @@ export default function Home() {
       <h2>Hi there!</h2>
       <p>
         My name is Roshani Bankar. I am currently working on architectural
-        design projects and exploring urban planning and avionics. I have a
-        strong passion for robotics, reinforcement learning, AI, books, music,
-        backpacking and cats.
+        design and urban planning projects and avionics projects. I have a
+        strong passion for architecture and turning circuits into architectural projects.
       </p>
 
       <p><strong>Currently, I am:</strong></p>
 
       <ul>
-        <li>Working on architectural and urban planning projects</li>
-        <li>Experimenting with AI and reinforcement learning applications</li>
-        <li>Documenting and sharing ideas about design, tech, and travel</li>
+        <li>Working on hyperspectral payload circuits that convert photons into actionable data </li>
+        <li>Competing at architectural and urban planning projects</li>
+        <li>Designing and curating the yearbook for my college friends</li>
       </ul>
     </div>
 
@@ -70,10 +69,13 @@ export default function Home() {
   </div>
 
   <h2>Contact</h2>
-  <p>roshanibankar11@gmail.com</p>
+  <div className="contact-icons">
+    <img src="/iPortfolio/logos/email.png" alt="Email logo" />
+    <p>roshanibankar11@gmail.com</p>
+  </div>
 </div>
 
-  </div>
+</div>
 </main>
 
 

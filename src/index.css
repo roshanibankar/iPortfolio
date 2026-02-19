@@ -101,7 +101,6 @@ body {
   font-size: clamp(1rem, 2vw, 1.3rem);
 }
 
-/*----------------------------------------------------------*/
 
 /* MAIN CONTENT */
 .home-body {
@@ -112,9 +111,11 @@ body {
 }
 
 
-
 /* RESPONSIVE */
 @media (max-width: 600px) {
+  .home-hero {
+    background-position: right center;
+  }
   .navbar {
     left: 1rem;
   }
@@ -139,8 +140,6 @@ body {
 }
 
 
-
-
 @font-face {
   font-family: "Ivy Mode";
   src: url("./assets/ivy-mode-4.ttf") format("truetype");
@@ -156,6 +155,7 @@ body {
   max-width: 100%; /* use full width */
 }
 
+/*----------------------------------------------------------*/
 
 .body-grid {
   display: grid;
@@ -216,6 +216,23 @@ body {
     border-left: none;
     padding-left: 0;
   }
+}
+
+.contact-icons {
+  display: flex;           /* aligns children in a row */
+  align-items: center;     /* vertically centers the icon and text */
+  gap: 10px;               /* space between icon and text */
+}
+
+.contact-icons img {
+  width: 30px;             /* size of the icon */
+  height: 30px;
+  object-fit: contain;
+}
+
+.contact-icons p {
+  margin: 0;               
+  font-size: 16px;         
 }
 
 

@@ -96,21 +96,24 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="resume-item">
-          <img src="/iPortfolio/logos/sp.png" alt="SP College" className="item-icon" />
-          <div>
-            <span className="org-name">SP College</span>
-            <span className="resume-meta">Graduated 2021</span>
-          </div>
-        </div>
+        {/* 
+<div className="resume-item">
+  <img src="/iPortfolio/logos/sp.png" alt="SP College" className="item-icon" />
+  <div>
+    <span className="org-name">SP College</span>
+    <span className="resume-meta">Graduated 2021</span>
+  </div>
+</div>
 
-        <div className="resume-item">
-          <img src="/iPortfolio/logos/st-anne's.png" alt="St. Anne’s High School" className="item-icon" />
-          <div>
-            <span className="org-name">St. Anne’s High School</span>
-            <span className="resume-meta">Graduated 2019</span>
-          </div>
-        </div>
+<div className="resume-item">
+  <img src="/iPortfolio/logos/st-anne's.png" alt="St. Anne’s High School" className="item-icon" />
+  <div>
+    <span className="org-name">St. Anne’s High School</span>
+    <span className="resume-meta">Graduated 2019</span>
+  </div>
+</div>
+*/}
+
       </section>
 
     </div>
