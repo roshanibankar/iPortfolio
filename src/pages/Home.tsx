@@ -3,10 +3,10 @@ import "../index.css";
 
 export default function Home() {
   const dynamicPhrases = [
-    "Roshani Bankar.",
-    "an architectural designer and an engineer.",
-    "a content writer.",
-    "a video editor, an artist, cat lover, a backpacking enthusiast.",
+    "Roshani Bankar",
+    "an architectural designer and an engineer",
+    "a content writer",
+    "a video editor, an artist,a cat lover, a backpacking enthusiast",
   ];
 
   return (
