@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://roshanibankar.github.io/iportfolio",
+  "homepage": "https://roshanibankar.github.io/iPortfolio",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
