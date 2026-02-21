@@ -39,7 +39,7 @@ export default function Home() {
     <div className="body-left">
       <h2>Hi there!</h2>
       <p>
-        My name is Roshani Bankar. I am currently working on architectural
+        My name is Roshani Bankar. I am an final year undergrad working on architectural
         design and urban planning projects and avionics projects. I have a
         strong passion for architecture and turning circuits into architectural projects.
       </p>

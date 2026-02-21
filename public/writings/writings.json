@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Maybe I Found Him",
+    "date": "Feb 28, 2023",
+    "slug": "poem1",
+    "type": "poem"
+  },
+  {
+    "title": "The Moon & The Fire",
+    "date": "March 22, 2023",
+    "slug": "poem2",
+    "type": "poem"
+  },
+  {
+    "title": "When I Ask- Why?",
+    "date": "2023",
+    "slug": "poem3",
+    "type": "poem"
+  },
+  {
+    "title": "Crowded Rooms",
+    "date": "2023",
+    "slug": "poem4",
+    "type": "poem"
+  },
+  {
+    "title": "Delay: A Digital Drift",
+    "date": "Aug 29, 2024",
+    "slug": "poem5",
+    "type": "poem"
+  },
+  {
+    "title":"At the Heart of TEDx",
+    "date": "Sep 25, 2024",
+    "slug": "poem6",
+    "type": "poem"
+  },
+  {
+    "title": "Conversation With Sloth :))",
+    "date": "Dec 9, 2024",
+    "slug": "poem7",
+    "type": "poem"
+  },
+  {
+    "title": "Presence",
+    "date": "Jan 5, 2026",
+    "slug": "poem8",
+    "type": "poem"
+  },{
+    "title": "Lost Spark",
+    "date": "Jan 30, 2026",
+    "slug": "poem9",
+    "type": "poem"
+  }
+]
