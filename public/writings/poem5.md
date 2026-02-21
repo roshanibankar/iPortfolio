@@ -1,4 +1,4 @@
----
+
 
 Seconds stretch like years,  
 When the messages sent linger in digital queues,  
@@ -27,7 +27,7 @@ It seems like a luxury in disguise,
 Cause even in the missed moments,  
 We’re closer than their long goodbyes.  
 
----
+
 **By Rosh**  
 **August 29, 2024**  
 **Rating: 9/10**

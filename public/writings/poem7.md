@@ -1,4 +1,3 @@
----
 
 **Z:**  
 If what I say could speak 1000 ways,  
@@ -59,7 +58,7 @@ A possibility?
 Rather same as the probability  
 Of landing sideways in a coin toss!  
 
----
-**By Rosh**  
+
+**By Rosh & Mukks**  
 **Dec 9, 2024**  
 **Rating: 9/10**

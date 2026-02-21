@@ -1,5 +1,5 @@
 
----
+
 
 In the dance of night, where shadows loom,  
 I'm fire, and you are the moon.  
@@ -23,7 +23,7 @@ I'll wait for the moment where dreams are fed.
 Cause who's to say the moon won't catch fire someday,  
 Like an unexpected encounter here to stay.
 
----
+
 *By Rosh*  
 *March 22, 2023*  
 *Rating: 7/10*

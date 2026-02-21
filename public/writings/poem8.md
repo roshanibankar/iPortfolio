@@ -1,4 +1,4 @@
----
+
 
 Not afraid of being on my own  
 Built a life I can call my home.  
@@ -29,7 +29,7 @@ Can’t erase what’s wired in the mind.
 We don’t choose why love begins  
 Only whether we let it in.  
 
----
+
 **By Rosh**  
 **Jan 5, 2026**  
 **Rating: 6/10**

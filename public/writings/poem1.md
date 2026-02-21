@@ -1,4 +1,4 @@
----
+
 
 Words like embers, comfort and inspire,  
 But actions fans the flames, set hearts on fire.  
@@ -24,7 +24,7 @@ Let understanding bloom, a love sublime.
 For even if the path diverges far away,  
 The memory of connection lights the day.
 
----
+
 **By Rosh**  
 **Feb 28, 2023**  
 **Rating: 7/10**

@@ -1,4 +1,3 @@
----
 
 We don’t wait for someone to tell us what to do,
 Cause we’re the pirates & pioneers of something new!
@@ -28,7 +27,7 @@ In the heart of our club, creative ideas grow,
 As we pass the torch to the adventurers among u , to let new visions flow.
 
 
----
+
 *By Rosh*  
 *Sep 25, 2024*  
 *Rating: 5/10*

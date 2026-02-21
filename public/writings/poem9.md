@@ -1,4 +1,4 @@
----
+
 I want to write, but I feel no spark,  
 Like my magic was stolen and locked in the dark.  
 I dive so deep just to end up ashore,  
@@ -23,7 +23,7 @@ Now I see why the shore pulled me free
 Cause some things aren’t lost.  
 They’re just found differently.  
 
----
+
 **By Rosh**  
 **Jan 30, 2026**  
 **Rating: 8/10**
