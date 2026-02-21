@@ -14,13 +14,13 @@ const projects: Project[] = [
     id: 1,
     title: "Athletics Las Vegas Ballpark",
     location: "Las Vegas, United States",
-    images: ["/home-bg.jpg", "/home-bg.jpg", "/home-bg.jpg"],
+    images: ["/iPortfolio/logos/home-bg.jpg", "/iPortfolio/logos/home-bg.jpg", "/iPortfolio/logos/home-bg.jpg"],
   },
   {
     id: 2,
     title: "BIG HQ",
     location: "Copenhagen, Denmark",
-    images: ["/home-bg.jpg", "/home-bg.jpg", "/home-bg.jpg"],
+    images: ["/iPortfolio/logos/home-bg.jpg", "/iPortfolio/logos/home-bg.jpg", "/iPortfolio/logos/home-bg.jpg"],
   },
 ];
 
