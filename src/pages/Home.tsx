@@ -39,9 +39,9 @@ export default function Home() {
     <div className="body-left">
       <h2>Hi there!</h2>
       <p>
-        My name is Roshani Bankar. I am an final year undergrad working on architectural
-        design and urban planning projects and avionics projects. I have a
-        strong passion for architecture and turning circuits into architectural projects.
+        My name is Roshani Bankar. I am currently working on high-energy particle physics and avionics projects. 
+        I have a strong passion for architecture and turning circuits into architectural projects. 
+        I am a final-year undergrad and have previously worked on robotics SLAM and avionics research.      
       </p>
 
       <p><strong>Currently, I am:</strong></p>

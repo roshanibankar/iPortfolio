@@ -76,7 +76,7 @@ html, body, #root {
 }
 
 .hero-content {
-  margin-top: 5rem; /* space below navbar */
+  margin-top: 7rem; /* space below navbar */
   margin-left: 3rem; /* left spacing */
   color: white;
   max-width: 100vw;
@@ -382,7 +382,7 @@ body {
 .resume-page {
   max-width: 900px;
   margin: 0 auto;
-  padding: 5rem 2rem;
+  padding: 3rem 2rem;
   font-family: "Ivy Mode", serif;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
@@ -406,6 +406,7 @@ body {
   font-weight: 400; 
   color: #333;
   margin-bottom: 3rem; /* extra space after section title */
+  margin-top: 0rem;;
 }
 
 /* ICONS */
@@ -488,6 +489,7 @@ body {
   .resume-section-title {
     font-size: 1.6rem;
     margin-bottom: 2.5rem;
+    margin-top: 0rem;
   }
   .resume-heading {
     font-size: clamp(2.8rem, 6vw, 4.5rem);
