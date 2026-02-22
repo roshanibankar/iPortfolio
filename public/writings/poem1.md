@@ -26,5 +26,4 @@ The memory of connection lights the day.
 
 
 **By Rosh**  
-**Feb 28, 2023**  
 **Rating: 7/10**

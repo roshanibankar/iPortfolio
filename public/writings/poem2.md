@@ -25,5 +25,4 @@ Like an unexpected encounter here to stay.
 
 
 *By Rosh*  
-*March 22, 2023*  
 *Rating: 7/10*

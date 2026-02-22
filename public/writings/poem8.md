@@ -31,5 +31,4 @@ Only whether we let it in.
 
 
 **By Rosh**  
-**Jan 5, 2026**  
 **Rating: 6/10**

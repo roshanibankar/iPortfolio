@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Backpacking from './pages/Backpacking';
 import Resume from './pages/Resume';
 import Writings from './pages/Writings';
+import WritingPage from "./pages/WritingPage";
 import Navbar from './components/Navbar';
 
 function App() {
@@ -15,8 +16,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/backpacking" element={<Backpacking />} />
-        <Route path="/writings" element={<Writings />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/writings" element={<Writings />} />
+        {/* Dynamic route for each writing */}
+        <Route path="/writings/:slug" element={<WritingPage />} />
       </Routes>
     </>
   );

@@ -29,6 +29,5 @@ As we pass the torch to the adventurers among u , to let new visions flow.
 
 
 *By Rosh*  
-*Sep 25, 2024*  
 *Rating: 5/10*
 

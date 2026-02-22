@@ -25,5 +25,4 @@ They’re just found differently.
 
 
 **By Rosh**  
-**Jan 30, 2026**  
 **Rating: 8/10**

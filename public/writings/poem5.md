@@ -29,5 +29,4 @@ We’re closer than their long goodbyes.
 
 
 **By Rosh**  
-**August 29, 2024**  
 **Rating: 9/10**

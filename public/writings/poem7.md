@@ -60,5 +60,4 @@ Of landing sideways in a coin toss!
 
 
 **By Rosh & Mukks**  
-**Dec 9, 2024**  
 **Rating: 9/10**
