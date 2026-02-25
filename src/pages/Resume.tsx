@@ -93,7 +93,7 @@ export default function Resume() {
               <span className="org-name">Cambridge Institute of Technology</span>
               <span className="role-name">B.Tech, Electrical & Electronics Engineering</span>
               <span className="resume-meta">2022 – 2026</span>
-              <span className="resume-submeta">Affiliated to Visvesvaraya Technological University (VTU)</span>
+              {/* <span className="resume-submeta">Affiliated to Visvesvaraya Technological University (VTU)</span> */}
             </div>
           </div>
 
