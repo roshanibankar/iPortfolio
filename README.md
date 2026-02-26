@@ -8,10 +8,8 @@ A personal portfolio website built with **TypeScript**, **React**, and **Vite**,
 - [Features](#features)  
 - [Technologies](#technologies)  
 - [Getting Started](#getting-started)  
-- [Folder Structure](#folder-structure)  
-- [Available Scripts](#available-scripts)  
 - [Deployment](#deployment)  
-- [License](#license)  
+
 
 ---
 
@@ -72,9 +70,9 @@ yarn dev
 ## Deploy 
 Using GitHub pages
 
+```bash
 npm install --save-dev gh-pages
-
-# Add deploy script in package.json
-# "deploy": "gh-pages -d dist"
-
+Add deploy script in package.json
+"deploy": "gh-pages -d dist"
 npm run deploy
+```
