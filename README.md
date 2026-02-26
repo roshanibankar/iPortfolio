@@ -68,6 +68,10 @@ npm run dev
 # or
 yarn dev
 
+```
+## Deploy 
+Using GitHub pages
+
 npm install --save-dev gh-pages
 
 # Add deploy script in package.json
