@@ -1,6 +1,6 @@
 # Portfolio Project
 
-A personal portfolio website built with **TypeScript**, **React**, and **Vite**, showcasing my projects, skills, and contact information.
+A personal portfolio website built with **TypeScript**, **React**, and **Vite**, showcasing my projects, skills and contact information.
 
 ## Table of Contents
 
@@ -22,7 +22,6 @@ Live demo: [https://roshanibankar.github.io/iPortfolio/#/]
 ## Features
 
 - Responsive design for desktop and mobile  
-- Dark/light theme toggle  
 - Animated project cards and section transitions  
 - Contact form with validation  
 - Easy-to-update projects and skills section  
