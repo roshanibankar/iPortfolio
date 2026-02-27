@@ -73,5 +73,6 @@ Using GitHub pages
 npm install --save-dev gh-pages
 Add deploy script in package.json
 "deploy": "gh-pages -d dist"
+npm run build
 npm run deploy
 ```
