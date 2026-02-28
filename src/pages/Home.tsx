@@ -71,6 +71,12 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      <footer style={{ textAlign: "center", padding: "20px 0" }} className="home-body">
+        <p>reality is a draft until i design it :)) </p>
+        <p>&copy; Roshani Bankar 2026</p>
+      </footer>
+
     </>
   );
 }
