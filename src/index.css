@@ -340,20 +340,30 @@ body {
 
 /*----------------------------------------------------------*/
 
-
+/* ----------------------- */
+/* Backpacking page layout */
+/* ----------------------- */
 .backpacking-page {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  position: relative; /* for background SVGs */
+  overflow-x: hidden;
 }
 
+/* ----------------------- */
+/* Logos container */
+/* ----------------------- */
 .backpacking-logos {
   display: flex;
   gap: 4rem;
-  align-items: flex-start; /* align top so branch starts below */
+  align-items: flex-start; /* align top for branches */
+  position: relative;
+  z-index: 2;
 }
 
+/* Individual logo */
 .backpacking-logo {
   width: 120px;
   cursor: pointer;
@@ -364,19 +374,25 @@ body {
   transform: scale(1.1);
 }
 
+/* ----------------------- */
 /* Maps branching menu */
+/* ----------------------- */
+
+/* Default: desktop — branch to the right */
 .maps-container {
   position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* start branch from left */
+  flex-direction: row; /* branch to the right */
+  align-items: flex-start;
+  gap: 1rem; /* space between logo and branch */
 }
 
+/* Branch styling */
 .maps-branch {
   list-style: none;
-  margin: 0.5rem 0 0 0; /* small gap below logo */
-  padding-left: 1rem;   /* indent for branch */
-  border-left: 2px solid #aaa; /* branch line */
+  margin: 0;
+  padding-left: 1rem;   
+  border-left: 2px solid #aaa; /* vertical branch line */
 }
 
 .maps-branch li {
@@ -395,6 +411,117 @@ body {
   font-weight: 700;
 }
 
+/* ----------------------- */
+/* Background SVGs */
+/* ----------------------- */
+
+/* Top-right: mirror horizontally */
+.bg-top-right {
+  position: fixed;
+  top: -125px;   
+  right: 0px;
+  width: 400px;
+  height: 400px;
+  background-image: url("/logos/footer.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 1;
+  transform: scaleX(-1) rotate(180deg);
+  transform-origin: center;
+  opacity: 0.9;
+}
+
+/* Bottom-left: mirror vertically */
+.bg-bottom-left {
+  position: fixed;
+  bottom: -125px;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-image: url("/logos/footer.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 1;
+  transform: scaleY(-1) rotate(180deg);
+  transform-origin: center;
+  opacity: 0.9;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+  /* Stack logos vertically */
+  .backpacking-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Shrink logos */
+  .backpacking-logo {
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .bg-top-right{
+    top: -70px;
+    width: 250px;
+    height: 250px;
+    opacity: 0.9;
+    position: fixed;
+  }
+
+  /* Background SVGs smaller */
+  .bg-bottom-left {
+    width: 250px;
+    height: 250px;
+    opacity: 0.9;
+    position: fixed;
+    bottom: -70px;
+  }
+
+  /* Maps container */
+  .maps-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative; /* for dropdown absolute positioning */
+  }
+
+  /* Maps branch (dropdown) opens to the right */
+ .maps-branch {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  border-left: 2px solid #aaa;
+  padding: 0.5rem 1rem;   /* top/bottom 0.5rem, left/right 1rem */
+  padding-right: 5rem; /* increase right padding */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1;
+  width: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  box-sizing: border-box; 
+}
+
+  .maps-branch li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  footer {
+    position: relative;
+  }
+}
 /*----------------------------------------------------------*/
 /* List of writings */
 .writings-list {

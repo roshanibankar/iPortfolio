@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../index.css";
 
 export default function Backpacking() {
   const [mapsOpen, setMapsOpen] = useState(false);
@@ -20,14 +19,18 @@ export default function Backpacking() {
 
   return (
     <div className="backpacking-page">
-      <div className="backpacking-logos">
 
-        {/* VSCO Logo (simple link) */}
+      {/* Background SVGs */}
+      <div className="bg-top-right" />
+      <div className="bg-bottom-left" />
+
+      <div className="backpacking-logos">
+        {/* VSCO Logo */}
         <a href="https://vsco.co/rowrowrosh/" target="_blank" rel="noopener noreferrer">
           <img src="/iPortfolio/logos/vsco.svg" alt="VSCO Logo" className="backpacking-logo" />
         </a>
 
-        {/* Google Maps Logo (branch menu) */}
+        {/* Google Maps Logo */}
         <div className="maps-container">
           <img
             src="/iPortfolio/logos/google-maps.svg"
@@ -40,11 +43,7 @@ export default function Backpacking() {
             <ul className="maps-branch">
               {mapTrips.map((trip, index) => (
                 <li key={index}>
-                  <a
-                    href={trip.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={trip.link} target="_blank" rel="noopener noreferrer">
                     {trip.name}
                   </a>
                 </li>
@@ -52,7 +51,6 @@ export default function Backpacking() {
             </ul>
           )}
         </div>
-
       </div>
     </div>
   );
