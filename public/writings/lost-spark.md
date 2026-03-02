@@ -15,10 +15,10 @@ With a reason anew
 Now I look for a pearl,  
 Not the ache,  
 Not the loss,  
-And it shines in my hand like its cost it always knew.  
+And it shines in my hand like its worth it always knew.  
 
 I wanna write of its light, keep it close, keep it true,  
-Hide it from the world, or give it to you.  
+Hide it from the world and give it to you.  
 Now I see why the shore pulled me free  
 Cause some things aren’t lost.  
 They are just found differently.  
