@@ -643,6 +643,97 @@ body {
     padding: 1rem;
   }
 }
+
+/* === Random ★ Stars (twinkling out-of-sync) === */
+.star-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  color: #000000;
+  opacity: 0.15;
+  animation: starTwinkle 4s ease-in-out infinite alternate;
+  user-select: none;
+}
+
+@keyframes starTwinkle {
+  0%   { opacity: 0.05; transform: scale(0.9); }
+  50%  { opacity: 0.25; transform: scale(1); }
+  100% { opacity: 0.05; transform: scale(1.1); }
+}
+
+/* Keep content above stars */
+.hero-content,
+.writings-list {
+  position: relative;
+  z-index: 1;
+}
+
+/* === Orbit System (your previous orbit CSS) === */
+.writings-orbit-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.orbit-system {
+  position: absolute;
+  top: -250px;
+  right: -250px;
+  width: 800px;
+  height: 800px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orbit {
+  position: absolute;
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  animation: rotateOrbit linear infinite;
+}
+
+.orbit-1 {
+  width: 800px;
+  height: 800px;
+  animation-duration: 15s;
+}
+
+.orbit-2 {
+  width: 600px;
+  height: 600px;
+  top: 100px;
+  left: 100px;
+  animation-duration: 11s;
+  animation-direction: reverse;
+}
+
+.orbit-3 {
+  width: 400px;
+  height: 400px;
+  top: 200px;
+  left: 200px;
+  animation-duration: 9s;
+}
+
+.planet {
+  position: absolute;
+  top: -8px;          /* half of size to center on orbit */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 11px;         /* same size for all planets */
+  height: 11px;
+  background: #000000;    /* no fill */
+  border: 2px solid #000;  /* black outline */
+  border-radius: 50%;  /* makes it circular */
+}
+@keyframes rotateOrbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 /*---------------------------------------------------*/
 .resume-page {
   max-width: 900px;
