@@ -36,6 +36,7 @@ html, body, #root {
   justify-content: flex-start; /* left-aligned */
   position: relative;
   overflow: hidden;
+  opacity: 0.95;
 }
 
 .hero-content {
@@ -123,12 +124,12 @@ body {
 
 .body-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr; /* left wider, right narrower */
+  grid-template-columns: 2fr 1fr; 
   gap: 4rem;
-  width: 100%; /* take full width */
-  max-width: 1200px; /* optional: constrain max width for readability */
+  width: 100%; 
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem; /* optional small padding inside max-width */
+  padding: 0 1rem; 
 }
 
 /* Left column */
@@ -279,7 +280,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(81, 80, 80); 
+  color: rgb(151, 150, 150); 
   margin: 0 0.4rem;
   font-weight: 700;
   transition: color 0.2s ease, font-weight 0.2s ease;
@@ -289,7 +290,7 @@ body {
 .nav-links a:not(:last-child)::after {
   content: " | ";
   margin-left: 0.4rem;
-  color: rgb(100, 100, 100);   
+  color: rgb(82, 81, 81);   
 }
 
 .nav-links a:hover {
