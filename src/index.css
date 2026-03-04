@@ -88,7 +88,7 @@ body {
 .home-body {
   margin-top: 0;
   padding: 0 3rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   word-spacing: 0.2em;
 }
 
@@ -311,7 +311,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: rgb(54, 55, 55);     
+  color: rgb(87, 88, 88);     
   font-weight: 500;
 }
 
