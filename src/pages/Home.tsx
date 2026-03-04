@@ -16,7 +16,8 @@ export default function Home() {
         <div className="hero-content">
           <h1 style={{ fontWeight: 700, textShadow: "1px 1px 2px rgba(0,0,0,0.3)" }}>
             Hello, I am{" "}
-            <span className="typewriter-line">
+            <span className="typewriter-line" style={{ fontWeight: 900 }}>
+
               <Typewriter
                 texts={dynamicPhrases} 
                 typingSpeed={80}
@@ -76,6 +77,12 @@ export default function Home() {
         <p>reality is a draft until i design it :)) </p>
         <p>&copy; Roshani Bankar 2026</p>
       </footer>
+      {/* <footer>
+        <div className="footer-wave">
+          <img src="/iPortfolio/logos/footer-wavez.svg" alt="decorative wave" />
+        </div>
+      </footer> */}
+
 
     </>
   );

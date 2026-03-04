@@ -97,7 +97,7 @@ export default function Resume() {
             </div>
           </div>
 
-          {/*
+         
 <div className="resume-item">
 <img src="/iPortfolio/logos/sp.png" alt="SP College" className="item-icon" />
 <div>
@@ -113,7 +113,7 @@ export default function Resume() {
 <span className="resume-meta">Graduated 2019</span>
 </div>
 </div>
-*/}
+
 
         </section>
 
