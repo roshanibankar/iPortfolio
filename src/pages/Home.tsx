@@ -4,7 +4,7 @@ import "../index.css";
 export default function Home() {
   const dynamicPhrases = [
     "Roshani Bankar",
-    "an architectural designer and an engineer",
+    "an engineer & an architectural designer ",
     "a content writer",
     "a video editor, an artist, a cat lover, a backpacking enthusiast",
   ];
@@ -77,11 +77,11 @@ export default function Home() {
         <p>reality is a draft until i design it :)) </p>
         <p>&copy; Roshani Bankar 2026</p>
       </footer>
-      {/* <footer>
+       <footer>
         <div className="footer-wave">
           <img src="/iPortfolio/logos/footer-wavez.svg" alt="decorative wave" />
         </div>
-      </footer> */}
+      </footer> 
 
 
     </>

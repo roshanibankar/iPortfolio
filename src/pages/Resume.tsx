@@ -98,13 +98,13 @@ export default function Resume() {
           </div>
 
          
-<div className="resume-item">
+{/* <div className="resume-item">
 <img src="/iPortfolio/logos/sp.png" alt="SP College" className="item-icon" />
 <div>
 <span className="org-name">SP College</span>
 <span className="resume-meta">Graduated 2021</span>
 </div>
-</div>
+</div> */}
 
 <div className="resume-item">
 <img src="/iPortfolio/logos/st-anne's.png" alt="St. Anne’s High School" className="item-icon" />
