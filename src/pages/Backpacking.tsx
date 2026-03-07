@@ -4,10 +4,7 @@ export default function Backpacking() {
   const [mapsOpen, setMapsOpen] = useState(false);
 
   const mapTrips = [
-    { name: "Mumbai", link: "https://maps.app.goo.gl/Xiqd77id5gdqZVKJ7" },
-    { name: "Bangalore", link: "https://maps.app.goo.gl/G46ha1ULMVisJ9Mv5" },
-    { name: "Pune", link: "https://maps.app.goo.gl/BQpgkxd88j4eLQ747" },
-    { name: "North India & Nort-East India", link: "https://maps.app.goo.gl/BeehtdCCnECXb6YV8" },
+    { name: "India", link: "https://maps.app.goo.gl/YgX5WUnixER1peM88" },
     { name: "USA & Canada", link: "https://maps.app.goo.gl/ojg7iep8Pt7c9qGC6" },
     { name: "South America", link: "https://maps.app.goo.gl/XoB19KQ2RMhUS7UB6" },
     { name: "Europe", link: "https://maps.app.goo.gl/2hrmRoH8WymDY1UH8" },
