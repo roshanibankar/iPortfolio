@@ -17,23 +17,41 @@ html, body, #root {
 
 }
 
-
-
 .footer-wave {
   width: 100%;
   line-height: 0;
   margin: 0;
   padding: 0;
   margin-top: -290px;
-
 }
-
 
 .footer-wave img {
   display: block;
   width: 100%;
   height: auto;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer-wave {
+    margin-top: -200px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-wave {
+    margin-top: -140px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .footer-wave {
+    margin-top: -80px;
+  }
+}
+
 /*----------------------------------------------------------*/
 
 
@@ -1139,3 +1157,80 @@ body {
 }
 
 
+/* ============================= */
+/* DARK MODE */
+/* ============================= */
+
+body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background: #0f1115;
+  color: #e5e5e5;
+}
+
+/* Navbar links */
+body.dark-mode .nav-links a {
+  color: #e5e5e5;
+}
+
+body.dark-mode .nav-links a:not(:last-child)::after {
+  color: #e5e5e5;
+}
+
+/* Text sections */
+body.dark-mode .body-left p,
+body.dark-mode .body-right p,
+body.dark-mode .resume-item p,
+body.dark-mode .writing-page {
+  color: #cfcfcf;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #6fa8ff;
+}
+
+/* Headings */
+body.dark-mode .writing-page h1,
+body.dark-mode .writing-page h2,
+body.dark-mode .writing-page h3 {
+  color: #6fa8ff;
+}
+
+/* Code blocks */
+body.dark-mode .writing-page pre {
+  background: #1c1f26;
+}
+
+body.dark-mode .writing-page code {
+  background: #2a2d36;
+}
+
+/* Orbits */
+body.dark-mode .orbit {
+  border-color: rgba(255,255,255,0.15);
+}
+
+body.dark-mode .planet {
+  border: 2px solid #fff;
+}
+
+/* Resume */
+body.dark-mode .resume-heading {
+  color: #ddd;
+}
+
+body.dark-mode .resume-section-title {
+  color: #ccc;
+}
+
+/* Buttons */
+.dark-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: inherit;
+}

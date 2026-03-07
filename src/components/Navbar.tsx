@@ -1,14 +1,21 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import "../index.css";
+import { useState } from "react"
+import { Link } from "react-router-dom"
+import "../index.css"
 
-export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+type Props = {
+  toggleDarkMode: () => void
+  darkMode: boolean
+}
 
-  const toggleMenu = () => setMenuOpen(!menuOpen);
+export default function Navbar({ toggleDarkMode, darkMode }: Props) {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const toggleMenu = () => setMenuOpen(!menuOpen)
 
   return (
     <header className="navbar">
+
       {/* Links */}
       <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
         <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
@@ -18,10 +25,21 @@ export default function Navbar() {
         <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
       </nav>
 
-      {/* Hamburger for mobile */}
-      <div className="menu-toggle" onClick={toggleMenu}>
-        {menuOpen ? "×" : "☰"}
+      {/* Right side controls */}
+      <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+
+        {/* Dark mode toggle */}
+        <button className="dark-toggle" onClick={toggleDarkMode}>
+          {darkMode ? "☀️" : "🌙"}
+        </button>
+
+        {/* Hamburger menu */}
+        <div className="menu-toggle" onClick={toggleMenu}>
+          {menuOpen ? "×" : "☰"}
+        </div>
+
       </div>
+
     </header>
-  );
+  )
 }
