@@ -1163,9 +1163,7 @@ body.dark-mode .star {
 }
 
 
-/* ============================= */
-/* DARK MODE */
-/* ============================= */
+/* =============================  DARK MODE ============================= */
 
 body {
   transition: background 0.3s ease, color 0.3s ease;
@@ -1233,15 +1231,15 @@ body.dark-mode .resume-section-title {
 }
 /* Dark mode toggle stays fixed at top-right */
 .dark-toggle {
-  position: absolute;       /* fixes it relative to the viewport */
-  top: 0.5rem;             /* distance from top */
-  right: 0.5rem;           /* distance from right */
-  z-index: 1000;         /* above other elements */
+  position: absolute;    
+  top: 0.5rem;            
+  right: 0.5rem;           
+  z-index: 1000;      
   background: none;
   border: none;
-  font-size: 1.2rem;     /* keeps your original size */
+  font-size: 1.2rem;   
   cursor: pointer;
-  color: inherit;        /* respects dark/light mode */
+  color: inherit;        /* sorts into dark/light mode */
   transition: transform 0.2s ease;
 }
 
@@ -1250,7 +1248,7 @@ body.dark-mode .resume-section-title {
   transform: scale(0.9);
 }
 
-/* Mobile adjustments */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .dark-toggle {
     top: 0.4rem;

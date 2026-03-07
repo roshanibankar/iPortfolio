@@ -48,8 +48,9 @@ export default function Home({ darkMode }: Props) {
             <h2>Hi there!</h2>
             <p>
               My name is Roshani Bankar. I am currently working on high-energy particle physics and avionics projects. 
-              I have a strong passion for architecture and turning circuits into architectural projects. 
-              I am a final-year undergrad and have previously worked on robotics SLAM and avionics research.      
+              I have a strong passion for architecture and building circuits for architectural projects. 
+              I am a final-year undergrad and have previously worked on robotics SLAM and avionics research. 
+              If you plan to build structures and circuits that merge art & tech then we should definitely connect!
             </p>
 
             <p><strong>Currently, I am:</strong></p>
