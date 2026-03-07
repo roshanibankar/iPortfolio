@@ -1225,12 +1225,30 @@ body.dark-mode .resume-heading {
 body.dark-mode .resume-section-title {
   color: #ccc;
 }
-
-/* Buttons */
+/* Dark mode toggle stays fixed at top-right */
 .dark-toggle {
+  position: absolute;       /* fixes it relative to the viewport */
+  top: 0.5rem;             /* distance from top */
+  right: 0.5rem;           /* distance from right */
+  z-index: 1000;         /* above other elements */
   background: none;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.2rem;     /* keeps your original size */
   cursor: pointer;
-  color: inherit;
+  color: inherit;        /* respects dark/light mode */
+  transition: transform 0.2s ease;
+}
+
+/* Tap effect */
+.dark-toggle:active {
+  transform: scale(0.9);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .dark-toggle {
+    top: 0.4rem;
+    right: 0.2rem;
+    font-size: 1.5rem;   /* easier to tap on mobile */
+  }
 }

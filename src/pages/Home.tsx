@@ -1,13 +1,25 @@
 import Typewriter from "../components/Typewriter";
 import "../index.css";
 
-export default function Home() {
+type Props = {
+  darkMode: boolean;
+};
+
+export default function Home({ darkMode }: Props) {
   const dynamicPhrases = [
     "Roshani Bankar",
     "an engineer & an architectural designer ",
     "a content writer",
     "a video editor, an artist, a cat lover, a backpacking enthusiast",
   ];
+
+  // Icon paths based on dark mode
+  const icons = {
+    github: darkMode ? "/iPortfolio/logos/github-white.png" : "/iPortfolio/logos/github.svg",
+    youtube: darkMode ? "/iPortfolio/logos/youtube-app-white.png" : "/iPortfolio/logos/youtube.svg",
+    instagram: darkMode ? "/iPortfolio/logos/insta-white.png" : "/iPortfolio/logos/instagram.svg",
+    email: darkMode ? "/iPortfolio/logos/email-white-icon.png" : "/iPortfolio/logos/email.png",
+  };
 
   return (
     <>
@@ -17,7 +29,6 @@ export default function Home() {
           <h1 style={{ fontWeight: 700, textShadow: "1px 1px 2px rgba(0,0,0,0.3)" }}>
             Hello, I am{" "}
             <span className="typewriter-line" style={{ fontWeight: 900 }}>
-
               <Typewriter
                 texts={dynamicPhrases} 
                 typingSpeed={80}
@@ -54,19 +65,19 @@ export default function Home() {
             <h2>Links</h2>
             <div className="contact-icons">
               <a href="https://github.com/roshanibankar" target="_blank" rel="noopener noreferrer">
-                <img src="/iPortfolio/logos/github.svg" alt="GitHub logo" />
+                <img src={icons.github} alt="GitHub logo" />
               </a>
               <a href="https://www.youtube.com/@RoshLogs" target="_blank" rel="noopener noreferrer">
-                <img src="/iPortfolio/logos/youtube.svg" alt="YouTube logo" />
+                <img src={icons.youtube} alt="YouTube logo" />
               </a>
               <a href="https://www.instagram.com/roshanibankar._" target="_blank" rel="noopener noreferrer">
-                <img src="/iPortfolio/logos/instagram.svg" alt="Instagram logo" />
+                <img src={icons.instagram} alt="Instagram logo" />
               </a>
             </div>
 
             <h2>Contact</h2>
             <div className="contact-icons">
-              <img src="/iPortfolio/logos/email.png" alt="Email logo" />
+              <img src={icons.email} alt="Email logo" />
               <p>roshanibankar11@gmail.com</p>
             </div>
           </div>
@@ -77,13 +88,11 @@ export default function Home() {
         <p>reality is a draft until i design it :)) </p>
         <p>&copy; Roshani Bankar 2026</p>
       </footer>
-       <footer>
+      <footer>
         <div className="footer-wave">
           <img src="/iPortfolio/logos/footer-wavez.svg" alt="decorative wave" />
         </div>
       </footer> 
-
-
     </>
   );
 }

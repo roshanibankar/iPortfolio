@@ -30,7 +30,7 @@ export default function Navbar({ toggleDarkMode, darkMode }: Props) {
 
         {/* Dark mode toggle */}
         <button className="dark-toggle" onClick={toggleDarkMode}>
-          {darkMode ? "☀️" : "🌙"}
+          {darkMode ? "𖤓" : "⏾"}
         </button>
 
         {/* Hamburger menu */}

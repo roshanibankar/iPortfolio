@@ -1,6 +1,10 @@
 import { useState } from "react";
 
-export default function Backpacking() {
+type Props = {
+  darkMode: boolean;
+};
+
+export default function Backpacking({ darkMode }: Props) {
   const [mapsOpen, setMapsOpen] = useState(false);
 
   const mapTrips = [
@@ -14,9 +18,14 @@ export default function Backpacking() {
     { name: "Australia | New-Zealand ", link: "https://maps.app.goo.gl/p7uBx9L17ci93FnV6" },
   ];
 
+  // Choose logo paths based on dark mode
+  const logos = {
+    vsco: darkMode ? "/iPortfolio/logos/vsco.png" : "/iPortfolio/logos/vsco.svg",
+    maps: darkMode ? "/iPortfolio/logos/google-maps-white.png" : "/iPortfolio/logos/google-maps.svg",
+  };
+
   return (
     <div className="backpacking-page">
-
       {/* Background SVGs */}
       <div className="bg-top-right" />
       <div className="bg-bottom-left" />
@@ -24,13 +33,13 @@ export default function Backpacking() {
       <div className="backpacking-logos">
         {/* VSCO Logo */}
         <a href="https://vsco.co/rowrowrosh/" target="_blank" rel="noopener noreferrer">
-          <img src="/iPortfolio/logos/vsco.svg" alt="VSCO Logo" className="backpacking-logo" />
+          <img src={logos.vsco} alt="VSCO Logo" className="backpacking-logo" />
         </a>
 
         {/* Google Maps Logo */}
         <div className="maps-container">
           <img
-            src="/iPortfolio/logos/google-maps.svg"
+            src={logos.maps}
             alt="Google Maps Logo"
             className="backpacking-logo"
             onClick={() => setMapsOpen(!mapsOpen)}
