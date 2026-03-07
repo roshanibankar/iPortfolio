@@ -696,6 +696,12 @@ body {
   user-select: none;
 }
 
+/* Dark mode stars */
+body.dark-mode .star {
+  color: #ffffff;    /* white stars */
+  opacity: 0.3;      /* slightly more visible than in light mode */
+}
+
 @keyframes starTwinkle {
   0%   { opacity: 0.05; transform: scale(0.9); }
   50%  { opacity: 0.25; transform: scale(1); }
