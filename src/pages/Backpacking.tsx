@@ -8,7 +8,7 @@ export default function Backpacking({ darkMode }: Props) {
   const [mapsOpen, setMapsOpen] = useState(false);
 
   const mapTrips = [
-    { name: "India", link: "https://maps.app.goo.gl/YgX5WUnixER1peM88" },
+    { name: "India", link: "https://www.google.com/maps/d/u/0/edit?mid=1kA9GRkKT_4AdDFq2X-F-fVHRI0xYu_A&usp=sharing" },
     { name: "USA & Canada", link: "https://maps.app.goo.gl/ojg7iep8Pt7c9qGC6" },
     { name: "South America", link: "https://maps.app.goo.gl/XoB19KQ2RMhUS7UB6" },
     { name: "Europe", link: "https://maps.app.goo.gl/2hrmRoH8WymDY1UH8" },
