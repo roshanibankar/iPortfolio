@@ -9,13 +9,14 @@ export default function Backpacking({ darkMode }: Props) {
 
   const mapTrips = [
     { name: "India", link: "https://www.google.com/maps/d/u/0/edit?mid=1kA9GRkKT_4AdDFq2X-F-fVHRI0xYu_A&usp=sharing" },
-    { name: "USA & Canada", link: "https://maps.app.goo.gl/ojg7iep8Pt7c9qGC6" },
-    { name: "South America", link: "https://maps.app.goo.gl/XoB19KQ2RMhUS7UB6" },
-    { name: "Europe", link: "https://maps.app.goo.gl/2hrmRoH8WymDY1UH8" },
-    { name: "Middle-East", link: "https://maps.app.goo.gl/Hr85ZwDDywT4FBKD6" },
-    { name: "Japan | South-Korea", link: "https://maps.app.goo.gl/euhwV4YFV7Mu7EMX8" },
-    { name: "Vietnam & Bali", link: "https://maps.app.goo.gl/sB7AdLUa26i3sJAN9" },
-    { name: "Australia | New-Zealand ", link: "https://maps.app.goo.gl/p7uBx9L17ci93FnV6" },
+    { name: "USA & Canada", link: "https://www.google.com/maps/d/u/0/edit?mid=1tTR6kWL4osKYi-qOh8xin4I3xmDV13c&usp=sharing" },
+    { name: "South America", link: "https://www.google.com/maps/d/u/0/edit?mid=1zdXAFL24wGXV0Ylbs_NfCjg1s1G5KlQ&usp=sharing" },
+    { name: "Europe", link: "https://www.google.com/maps/d/u/0/edit?mid=1la-8LU-ISVp7S-gp9kahcd4tbeSTGnY&usp=sharing" },
+    { name: "Middle-East", link: "https://www.google.com/maps/d/u/0/edit?mid=1S7TH33Wcx8HGNz1_LpMkXwzV8PGT60E&usp=sharing" },
+    { name: "Japan | South-Korea", link: "https://www.google.com/maps/d/u/0/edit?mid=10xXUdPDZAAvO73pN2-6WM8-rDcO684o&usp=sharing" },
+    { name: "Vietnam | Bali", link: "https://www.google.com/maps/d/u/0/edit?mid=13q8evhJTlFuUvxea9ULgqihjjIqL3sw&usp=sharing" },
+    { name: "Australia | New-Zealand ", link: "https://www.google.com/maps/d/u/0/edit?mid=1Im3VXKJGK4Wc79ZsFRHZVJan3KDoGT8&usp=sharing" },
+    { name: "Maldives | Antartica", link: "https://www.google.com/maps/d/u/0/edit?mid=1S-BMLDdkrKHAFj-Qgf0Px0VvU0HpYIw&usp=sharing" }
   ];
 
   // Choose logo paths based on dark mode
