@@ -36,7 +36,7 @@
     "type": "poem"
   },
   {
-    "title": "Conversation With Sloth :))",
+    "title": "Conversation With Sloth",
     "date": "Dec 9, 2024",
     "slug": "conversation-with-sloth",
     "type": "poem"
@@ -51,5 +51,11 @@
     "date": "Jan 30, 2026",
     "slug": "lost-spark",
     "type": "poem"
-  }
+},
+{
+  "title": "Everyone Is Being Authentic Online. So Why Does It Feel Fake?",
+  "date": "Mar 4, 2026",
+  "slug": "everyone-is-being-authentic-online-so-why-does-it-feel-fake",
+  "type": "article"
+}
 ]

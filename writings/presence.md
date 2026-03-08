@@ -1,7 +1,7 @@
 
 
 Not afraid of being on my own  
-Built a life I can call my home.  
+I built a life I can call my home.  
 
 But having you smooths the way,  
 Softens the weight of my random day.  
@@ -11,7 +11,7 @@ When I know that you are near.
 My life won’t break if you’re not here,  
 It won’t dissolve or disappear.  
 But losing the way you see the view  
-Would leave the world a little less true.  
+Would leave the world a little less unclear.  
 
 I have my goals, my forward drive,  
 The reasons I get up and thrive.  
@@ -26,7 +26,7 @@ Despite the odds, despite the pain.
 
 Even time if it turns unkind,  
 Can’t erase what’s wired in the mind.  
-We don’t choose why love begins  
+As we never choose how love begins  
 Only whether we let it in.  
 
 
