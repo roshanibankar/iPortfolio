@@ -577,10 +577,12 @@ body {
 
 .writing-link {
   font-family: "Ivy Mode", serif;
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #1a4dff;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0439f9;
   text-decoration: none;
+  word-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 .writing-link:hover {
@@ -640,7 +642,8 @@ body {
 .writing-page b {
   font-weight: 600;
   color: inherit;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em
 
 }
 
@@ -651,8 +654,8 @@ body {
 .writing-page h3,
 .writing-page blockquote {
   margin-bottom: 1rem;
-  letter-spacing: 0.05em;
-  word-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
 }
 
 .writing-page h1,
@@ -682,7 +685,6 @@ body {
   border-radius: 3px;
 }
 
-/* Mobile responsive */
 /* Mobile image responsiveness */
 @media (max-width: 600px) {
   .writing-page img {
