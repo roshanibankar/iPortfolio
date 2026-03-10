@@ -45,7 +45,7 @@ export default function Home({ darkMode }: Props) {
         <div className="body-grid">
           {/* LEFT SIDE */}
           <div className="body-left">
-            <h2>Hi there!</h2>
+            <h2><strong>Hi there!</strong></h2>
             <p>
               My name is Roshani Bankar. I am currently working on high-energy particle physics and avionics projects. 
               I have a strong passion for architecture and building circuits for architectural projects. 
