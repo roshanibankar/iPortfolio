@@ -141,7 +141,7 @@ body {
 
 @font-face {
   font-family: "Ivy Mode";
-  src: url("/iPortfolio/src/assets/ivy-mode.ttf") format("truetype");
+  src: url("/iPortfolio/assets/ivy-mode.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -149,8 +149,7 @@ body {
 
 @font-face {
   font-family: "Ivy Mode";
-  src: url("/iPortfolio/src/assets/ivy-mode-6.ttf") format("truetype");
-  font-weight: 300;
+  src: url("/iPortfolio/assets/ivy-mode-4.ttf") format("truetype");
   font-style: normal;
   font-display: swap;
 }
