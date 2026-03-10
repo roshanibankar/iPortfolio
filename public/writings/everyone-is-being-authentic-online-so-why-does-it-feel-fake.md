@@ -1,7 +1,7 @@
 
 ## 1. Life Feels Like a Movie Sometimes
 
-I’m sitting in a café writing this post while the song *“My Dil Goes Mmmm”* plays in my headphones. Writing this gives me the classic *romance novelist in a café on a quiet afternoon* vibe. Almost as if this will turn out to be one of those great posts that somehow leads me to meet the love of my life.  
+I’m sitting in a café writing this post while the song *“My Dil Goes Mmmm”* plays in my headphones. Writing this gives me the classic *romance novelist in a café on a quiet afternoon* vibe. Almost as if this will turn out to be one of those posts that somehow leads me to meet the love of my life.  
 
 Or maybe he’ll just show up in this café, accidentally drop his coffee on me, and that’s how the fairytale begins : ')
 
