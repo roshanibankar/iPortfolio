@@ -1,4 +1,3 @@
-# Everyone Is Being Authentic Online. So Why Does It Feel Fake?
 
 ## 1. Life Feels Like a Movie Sometimes
 
@@ -92,7 +91,7 @@ she was **never fully recognized for her work while alive.**
 
 Which raises a difficult question:
 
-> How many people would build something extraordinary if they knew they might never receive recognition?
+How many people would build something extraordinary if they knew they might never receive recognition?
 
 The answer becomes easier if the motto is **building things that last beyond you.**
 
@@ -146,5 +145,5 @@ It’s about **seeing the world clearly enough to find something true.**
 
 
 
-**Cheers,**  
-**Rosh**
+### **Cheers,**  
+### **Rosh**
