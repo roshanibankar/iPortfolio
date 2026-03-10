@@ -145,5 +145,5 @@ It’s about **seeing the world clearly enough to find something true.**
 
 
 
-### **Cheers,**  
-### **Rosh**
+**Cheers,**  
+**Rosh**
