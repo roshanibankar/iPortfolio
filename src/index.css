@@ -150,6 +150,7 @@ body {
 @font-face {
   font-family: "Ivy Mode";
   src: url("/iPortfolio/assets/ivy-mode-4.ttf") format("truetype");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
