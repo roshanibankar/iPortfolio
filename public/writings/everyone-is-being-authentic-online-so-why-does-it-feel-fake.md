@@ -1,12 +1,14 @@
-![Cafe Writing Vibes](iPortfolio/public/post-media/cafe-dal-moro's.jpg)
+![Dal Moro's Pasta Place](/iPortfolio/post-media/cafe-dal-moro.jpg)
+
+*Dal Moro's Pasta Place @ Phoenix Marketcity*
 
 ## 1. Life Feels Like a Movie Sometimes
 
 I’m sitting in a café writing this post while the song *“My Dil Goes Mmmm”* plays in my headphones. Writing this gives me the classic *romance novelist in a café on a quiet afternoon* vibe. Almost as if this will turn out to be one of those posts that somehow leads me to meet the love of my life.  
 
-Or maybe he’ll just show up in this café, accidentally drop his coffee on me, and that’s how the fairytale begins : ')
+Or maybe he’ll just show up in this café, accidentally drop his coffee on me, and that’s how the fairytale begins :')
 
-I grew up watching **Romedy Now** during my teenage years and was, obviously, captivated by the endless list of romantic endings. So of course I yearn for my own happy ending. Who wouldn’t?
+I grew up watching **Romedy Now** during my teenage years and was, obviously, captivated by the endless list of romantic endings. So of course I yearn for my own happy ending too. Who wouldn’t?
 
 Maybe that’s why the idea of **“main character energy”** feels so appealing it turns ordinary moments into scenes from a story.
 
@@ -146,5 +148,5 @@ It’s about **seeing the world clearly enough to find something true.**
 
 
 
-**Cheers,**  
-**Rosh**
+*Cheers,*  
+*Rosh*

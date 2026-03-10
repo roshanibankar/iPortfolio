@@ -684,14 +684,14 @@ body {
 }
 
 /* Mobile responsive */
+/* Mobile image responsiveness */
 @media (max-width: 600px) {
-  .writing-page-title {
-    font-size: 1.5rem;
-  }
-
-  .writing-page {
-    font-size: 0.95rem;
-    padding: 1rem;
+  .writing-page img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    object-fit: contain;
   }
 }
 
