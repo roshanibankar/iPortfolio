@@ -130,19 +130,26 @@ body {
   }
 }
 
-
+/* 
 @font-face {
   font-family: "Ivy Mode";
   src: url("./assets/ivy-mode.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
-
+} */
 
 @font-face {
   font-family: "Ivy Mode";
-  src: url("./assets/ivy-mode-4.ttf") format("truetype");
+  src: url("/iPortfolio/src/assets/ivy-mode.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("/iPortfolio/src/assets/ivy-mode-6.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -315,7 +322,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(0, 0, 0); 
+  color: rgb(49, 49, 49); 
   margin: 0 0.4rem;
   font-weight: 700;
   transition: color 0.2s ease, font-weight 0.2s ease;
@@ -628,6 +635,14 @@ body {
   font-size: 1rem;
   color: #444;
   line-height: 1.7;
+}
+
+.writing-page strong,
+.writing-page b {
+  font-weight: 600;
+  color: inherit;
+  letter-spacing: 0.05em;
+
 }
 
 .writing-page p,
