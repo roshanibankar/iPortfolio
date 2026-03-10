@@ -1,4 +1,4 @@
-![Cafe Writing Vibes](public/post-media/cafe-dal-moro's.jpg)
+![Cafe Writing Vibes](iPortfolio/public/post-media/cafe-dal-moro's.jpg)
 
 ## 1. Life Feels Like a Movie Sometimes
 
