@@ -7,7 +7,7 @@ Or maybe he’ll just show up in this café, accidentally drop his coffee on me,
 
 I grew up watching **Romedy Now** during my teenage years and was, obviously, captivated by the endless list of romantic endings. So of course I yearn for my own happy ending. Who wouldn’t?
 
-Maybe that’s why the idea of **“main character energy”** feels so appealing — it turns ordinary moments into scenes from a story.
+Maybe that’s why the idea of **“main character energy”** feels so appealing it turns ordinary moments into scenes from a story.
 
 
 
@@ -23,7 +23,7 @@ I also used to climb on car tops and imagine I was stargazing because, come on, 
 
 A few years back when I visited it again, I felt life rushing back into me. That’s when I realized the city kind of brought back my *“main character energy”* in a very calming way.
 
-The **city of dreams**, where people go hoping their dreams will come true — and luckily I grew up there.
+The **city of dreams**, where people go hoping their dreams will come true and luckily I grew up there.
 
 Not just that, the city also gave me my dream: **becoming an artist**.
 
@@ -43,11 +43,12 @@ But the problem begins when we start seeking validation from others to believe t
 
 The rise of individualism is great, but that doesn’t mean we won’t match outfits, order the same frappe, or choose the same pasta. Sure, you shouldn’t always follow the crowd, but someone choosing the same dish, idea, or opinion as you doesn’t suddenly make them a *“conventional-only”* person.
 
-The present times encourage us to document our lives in creative ways — random grocery store stories, morning routines, small everyday moments.
+The present times encourage us to document our lives in creative ways random grocery store stories, morning routines, small everyday moments.
 
 And many of those posts are genuinely authentic.
 
 But even authentic posts often exist with an **imagined audience** in mind.  
+
 And the moment we imagine an audience, we start shaping the story slightly differently.
 
 When we document life knowing someone is watching, the line between **living** and **performing authenticity** can slowly blur.
@@ -84,10 +85,9 @@ They were messy conversations with curiosity.
 **Vincent van Gogh’s letters** weren’t engagement bait.  
 They were raw bridges between brothers.
 
-**Rosalind Franklin’s X-ray images** weren’t crafted for fame — they revealed the blueprint of life itself.
+**Rosalind Franklin’s X-ray images** weren’t crafted for fame, they revealed the blueprint(DNA) of life itself.
 
-Here’s the catch though:  
-she was **never fully recognized for her work while alive.**
+Here’s the catch though, she was **never fully recognized for her work while alive.**
 
 Which raises a difficult question:
 
@@ -108,15 +108,15 @@ The most authentic work in history didn’t come from trying to appear interesti
 
 Aesthetics aren’t the problem.
 
-Street photographers, documentary filmmakers, and scientists carefully frame their shots — but their goal is **revealing something real**, not performing.
+Street photographers, documentary filmmakers, and scientists carefully frame their shots but their goal is **revealing something real**, not performing.
 
-Maybe that’s the deeper form of authenticity — not just **sharing life**, but **understanding it**.
+Maybe that’s the deeper form of authenticity not just **sharing life**, but **understanding it**.
 
 And sometimes you see it in love too.
 
 There are moments when the world seems to fall away and someone looks at you like you are the only thing that exists in the room.
 
-People often dismiss grand gestures in love as performative — something done for an audience. And sometimes they are.
+People often dismiss grand gestures in love as performative something done for an audience. And sometimes they are.
 
 But sometimes they aren’t.
 
