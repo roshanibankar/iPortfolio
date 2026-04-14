@@ -47,15 +47,15 @@ export default function Home({ darkMode }: Props) {
           <div className="body-left">
             <h2><strong>Hi there!</strong></h2>
             <p>
-              My name is Roshani Bankar. I am currently working on high-energy particle physics and avionics projects. 
+              My name is Roshani Bankar. I am currently working on avionics projects. 
               I have a strong passion for architecture and building circuits for architectural projects. 
               I am a final-year undergrad and have previously worked on robotics SLAM and avionics research. 
-              If you plan to build structures and circuits that merge art & tech then we should definitely connect!
+              And if you plan to build structures and circuits that merge art & tech then we should definitely connect!
             </p>
 
             <p><strong>Currently, I am:</strong></p>
             <ul>
-              <li>Working on hyperspectral payload circuits that convert photons into actionable data </li>
+              <li>Working on avionics hardware and software </li>
               <li>Competing at architectural and urban planning projects</li>
               <li>Designing and curating the yearbook for my college friends</li>
             </ul>
