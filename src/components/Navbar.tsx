@@ -9,7 +9,7 @@ type Props = {
 
 export default function Navbar({ toggleDarkMode, darkMode }: Props) {
 
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(true)
 
   const toggleMenu = () => setMenuOpen(!menuOpen)
 
