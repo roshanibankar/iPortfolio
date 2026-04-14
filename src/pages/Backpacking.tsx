@@ -12,7 +12,7 @@ export default function Backpacking({ darkMode }: Props) {
     { name: "USA & Canada", link: "https://www.google.com/maps/d/u/0/edit?mid=1tTR6kWL4osKYi-qOh8xin4I3xmDV13c&usp=sharing" },
     { name: "South America", link: "https://www.google.com/maps/d/u/0/edit?mid=1zdXAFL24wGXV0Ylbs_NfCjg1s1G5KlQ&usp=sharing" },
     { name: "Europe", link: "https://www.google.com/maps/d/u/0/edit?mid=1la-8LU-ISVp7S-gp9kahcd4tbeSTGnY&usp=sharing" },
-    { name: "Middle-East", link: "https://www.google.com/maps/d/u/0/edit?mid=1S7TH33Wcx8HGNz1_LpMkXwzV8PGT60E&usp=sharing" },
+    { name: "Africa", link: "https://www.google.com/maps/d/u/0/edit?mid=1S7TH33Wcx8HGNz1_LpMkXwzV8PGT60E&usp=sharing" },
     { name: "Japan | South-Korea", link: "https://www.google.com/maps/d/u/0/edit?mid=10xXUdPDZAAvO73pN2-6WM8-rDcO684o&usp=sharing" },
     { name: "Vietnam | Bali", link: "https://www.google.com/maps/d/u/0/edit?mid=13q8evhJTlFuUvxea9ULgqihjjIqL3sw&usp=sharing" },
     { name: "Australia | New-Zealand ", link: "https://www.google.com/maps/d/u/0/edit?mid=1Im3VXKJGK4Wc79ZsFRHZVJan3KDoGT8&usp=sharing" },
