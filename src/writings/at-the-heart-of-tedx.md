@@ -1,3 +1,9 @@
+---
+title: TEDx
+date: 2024-09-25
+type: poem
+---
+
 We don’t wait for someone to tell us what to do,  
 Cause we’re the pirates & pioneers of something new!  
 
@@ -25,6 +31,5 @@ As TEDx is more than a club it’s everything.
 In the heart of our club, creative ideas grow,  
 As we pass the torch to the adventurers among u, to let new visions flow.
 
-*By Rosh*  
-*Rating: 5/10*
+**By Rosh**
 

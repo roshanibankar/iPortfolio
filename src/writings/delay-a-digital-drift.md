@@ -1,4 +1,8 @@
-
+---
+title: Delay 
+date: 2024-08-29
+type: poem
+---
 
 Seconds stretch like years,  
 When the messages sent linger in digital queues,  
@@ -29,4 +33,3 @@ We’re closer than their long goodbyes.
 
 
 **By Rosh**  
-**Rating: 9/10**

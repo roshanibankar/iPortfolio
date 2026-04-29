@@ -1,4 +1,8 @@
-
+---
+title: When I ask "why"
+date: 2023
+type: poem
+---
 
 When I ask "why",  
 Tempers may rise & some may sign.  

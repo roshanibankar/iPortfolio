@@ -3,41 +3,51 @@ import { useParams, useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "../index.css";
 
-interface Writing {
-  title: string;
-  date: string;
-  slug: string;
-  type: string;
+// 👇 same parser
+function parseFrontmatter(raw: string) {
+  const match = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return { data: {}, content: raw };
+
+  const frontmatter = match[1];
+  const content = raw.slice(match[0].length);
+
+  const data: Record<string, string> = {};
+  frontmatter.split("\n").forEach((line) => {
+    const [key, ...rest] = line.split(":");
+    data[key.trim()] = rest.join(":").trim();
+  });
+
+  return { data, content };
 }
 
 export default function WritingPage() {
   const { slug } = useParams<{ slug: string }>();
-  const [content, setContent] = useState<string>("");
-  const [title, setTitle] = useState<string>("");
-  const [date, setDate] = useState<string>("");
+  const [content, setContent] = useState("");
+  const [title, setTitle] = useState("");
+  const [date, setDate] = useState("");
   const navigate = useNavigate();
 
   useEffect(() => {
     const loadWriting = async () => {
       if (!slug) return;
 
-      try {
-        // Fetch metadata
-        const metaRes = await fetch(`${import.meta.env.BASE_URL}writings/writings.json`);
-        const data: Writing[] = await metaRes.json();
-        const writing = data.find(w => w.slug === slug);
-        if (writing) {
-          setTitle(writing.title);
-          setDate(writing.date);
-        }
+      const files = import.meta.glob("../writings/*.md", { as: "raw" });
 
-        // Fetch markdown content
-        const mdRes = await fetch(`${import.meta.env.BASE_URL}writings/${slug}.md`);
-        const md = await mdRes.text();
-        setContent(md); // raw Markdown
-      } catch (err) {
-        console.error(err);
+      const match = Object.entries(files).find(([path]) =>
+        path.includes(`${slug}.md`)
+      );
+
+      if (!match) {
+        console.error("Not found:", slug);
+        return;
       }
+
+      const raw = await match[1]();
+      const { data, content } = parseFrontmatter(raw);
+
+      setTitle(data.title || "");
+      setDate(data.date || "");
+      setContent(content);
     };
 
     loadWriting();
@@ -46,13 +56,23 @@ export default function WritingPage() {
   return (
     <div className="writing-page-container">
       <div className="back-button-container">
-        <button className="back-button" onClick={() => navigate(-1)}>Back</button>
+        <button className="back-button" onClick={() => navigate(-1)}>
+          Back
+        </button>
       </div>
 
       <h1 className="writing-page-title">{title}</h1>
-      {date && <div className="writing-date">{date}</div>}
 
-      {/* Markdown renders safely */}
+      {date && (
+        <div className="writing-date">
+          {new Date(date).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+          })}
+        </div>
+      )}
+
       <div className="writing-page">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>

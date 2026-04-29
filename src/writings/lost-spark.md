@@ -1,3 +1,8 @@
+---
+title: Lost Spark
+date: 2026-01-30
+type: poem
+---
 
 I want to write, but I feel no spark,  
 Like my magic was stolen and locked in the dark.  
@@ -25,4 +30,3 @@ They are just found differently.
 
 
 **By Rosh**  
-**Rating: 8/10**

@@ -1,4 +1,8 @@
-
+---
+title: When I ask "why"
+date: 2023-02-28
+type: poem
+---
 
 Words like embers, comfort and inspire,  
 But actions fans the flames, set hearts on fire.  
@@ -26,4 +30,3 @@ The memory of connection lights the day.
 
 
 **By Rosh**  
-**Rating: 7/10**

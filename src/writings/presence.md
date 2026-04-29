@@ -1,4 +1,8 @@
-
+---
+title: Presence
+date: 2026-01-5
+type: poem
+---
 
 Not afraid of being on my own  
 I built a life I can call my home.  
@@ -30,5 +34,4 @@ As we never choose how love begins
 Only whether we let it in.  
 
 
-**By Rosh**  
-**Rating: 6/10**
+**By Rosh** 

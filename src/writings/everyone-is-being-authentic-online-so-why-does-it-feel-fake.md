@@ -1,3 +1,9 @@
+---
+title: Everyone Is Being Authentic Online So Why Does It Feel Fake
+date: 2026-03-04
+type: Article
+---
+
 ![Dal Moro's Pasta Place](/iPortfolio/post-media/cafe-dal-moro.jpg)
 
 *Dal Moro's Pasta Place @ Phoenix Marketcity*

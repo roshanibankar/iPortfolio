@@ -1,4 +1,8 @@
-
+---
+title: When I ask "why"
+date: 2023-03-22
+type: poem
+---
 
 
 In the dance of night, where shadows loom,  
@@ -25,4 +29,4 @@ Like an unexpected encounter here to stay.
 
 
 *By Rosh*  
-*Rating: 7/10*
+

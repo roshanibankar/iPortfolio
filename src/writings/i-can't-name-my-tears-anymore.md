@@ -1,4 +1,8 @@
-## I Can't Name My Tears Anymore
+---
+title: I Can't Name My Tears Anymore
+date: 2026-04-05
+type: poem
+---
 
 I sit with the weight I cannot name,  
 A quiet river behind my eyes,  

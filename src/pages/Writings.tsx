@@ -10,11 +10,11 @@ interface Writing {
 }
 
 interface Star {
-  id: number;       // unique key
-  top: string;      // "50%"
-  left: string;     // "20%"
-  size: string;     // "1.5rem"
-  delay: string;    // "2s" random animation delay
+  id: number;
+  top: string;
+  left: string;
+  size: string;
+  delay: string;
 }
 
 const STAR_COUNT = 30;
@@ -29,23 +29,59 @@ function generateStars(): Star[] {
   }));
 }
 
+// 👇 frontmatter parser
+function parseFrontmatter(raw: string) {
+  const match = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return { data: {}, content: raw };
+
+  const frontmatter = match[1];
+  const content = raw.slice(match[0].length);
+
+  const data: Record<string, string> = {};
+  frontmatter.split("\n").forEach((line) => {
+    const [key, ...rest] = line.split(":");
+    data[key.trim()] = rest.join(":").trim();
+  });
+
+  return { data, content };
+}
+
 export default function Writings() {
   const [writings, setWritings] = useState<Writing[]>([]);
   const [stars, setStars] = useState<Star[]>(() => generateStars());
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}writings/writings.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        data.sort(
-          (a: Writing, b: Writing) =>
-            new Date(b.date).getTime() - new Date(a.date).getTime()
-        );
-        setWritings(data);
-      })
-      .catch((err) => console.error("Failed to load writings:", err));
+    const loadWritings = async () => {
+      const files = import.meta.glob("../writings/*.md", { as: "raw" });
 
-    // Re-generate stars every 4 seconds (out-of-sync fade)
+      const loaded: Writing[] = [];
+
+      for (const path in files) {
+        const raw = await files[path]();
+        const { data } = parseFrontmatter(raw);
+
+        const slug =
+          path.split("/").pop()?.replace(".md", "") || "";
+
+        loaded.push({
+          title: data.title,
+          date: data.date,
+          type: data.type,
+          slug,
+        });
+      }
+
+      loaded.sort(
+        (a, b) =>
+          new Date(b.date).getTime() -
+          new Date(a.date).getTime()
+      );
+
+      setWritings(loaded);
+    };
+
+    loadWritings();
+
     const interval = setInterval(() => {
       setStars(generateStars());
     }, 4000);
@@ -55,7 +91,6 @@ export default function Writings() {
 
   return (
     <div className="writings-orbit-wrapper">
-      {/* Stars Layer */}
       <div className="star-layer">
         {stars.map((star) => (
           <span
@@ -73,28 +108,32 @@ export default function Writings() {
         ))}
       </div>
 
-      {/* Orbit system */}
       <div className="orbit-system">
         <div className="orbit orbit-1"><div className="planet" /></div>
         <div className="orbit orbit-2"><div className="planet" /></div>
         <div className="orbit orbit-3"><div className="planet" /></div>
       </div>
 
-      {/* Hero */}
       <section>
         <div className="hero-content">
           <h1 className="resume-heading">Writings</h1>
         </div>
       </section>
 
-      {/* Writings List */}
       <div className="writings-list">
         {writings.map((writing) => (
           <div key={writing.slug}>
             <Link to={`/writings/${writing.slug}`} className="writing-link">
               {writing.title}
             </Link>
-            <div className="writing-date">{writing.date}</div>
+
+            <div className="writing-date">
+              {new Date(writing.date).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+              })}
+            </div>
           </div>
         ))}
       </div>

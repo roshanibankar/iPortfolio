@@ -1,4 +1,8 @@
-## Tiger zinda hai
+---
+title: Tiger Zinda Hai
+date: 2026-04-05
+type: poem
+---
 
 I want to write, but I feel no spark,  
 Like my magic was stolen and locked in the dark.  
