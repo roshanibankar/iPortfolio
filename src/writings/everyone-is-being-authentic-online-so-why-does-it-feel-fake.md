@@ -119,7 +119,7 @@ Aesthetics aren’t the problem.
 
 Street photographers, documentary filmmakers, and scientists carefully frame their shots but their goal is **revealing something real**, not performing.
 
-Maybe that’s the deeper form of authenticity not just **sharing life**, but **understanding it**.
+Maybe that’s the deeper form of **authenticity is not just sharing life, but understanding it**.
 
 And sometimes you see it in love too.
 

@@ -1,5 +1,5 @@
 ---
-title: Tiger Zinda Hai
+title: Tiger Zinda Hai (Magical Stars iykyk)
 date: 2026-04-05
 type: poem
 ---
@@ -29,3 +29,5 @@ Cause some things aren’t lost.
 They’re just found differently.
 
 **By Rosh**
+
+**Rating: 8/10**

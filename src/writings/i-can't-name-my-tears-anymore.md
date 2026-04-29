@@ -25,3 +25,5 @@ And I recognize not the tears,
 But the quiet courage of letting them be.
 
 **By Rosh**
+
+**Rating: 9/10**

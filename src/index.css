@@ -609,6 +609,7 @@ body {
   margin-bottom: 0.5rem;
   letter-spacing: 0.05em;
   word-spacing: 0.1em;
+  color:#466df7;
 }
 
 /* Back button spacing below navbar */
@@ -617,7 +618,7 @@ body {
   margin-bottom: 1rem; /* keep bottom spacing */
   background: none;
   border: none;
-  color: #1a4dff;
+  color: #466df7;
   font-weight: 500;
   letter-spacing: 0.1em;
   cursor: pointer;

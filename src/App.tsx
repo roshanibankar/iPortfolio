@@ -12,20 +12,26 @@ import Navbar from './components/Navbar'
 
 function App() {
 
-  // Default to light mode
-  const [darkMode, setDarkMode] = useState(false);
+  // ✅ Typed state + default dark mode + persistence
+  const [darkMode, setDarkMode] = useState<boolean>(() => {
+    const saved = localStorage.getItem("darkMode")
+    return saved ? JSON.parse(saved) : true
+  })
 
+  // ✅ Apply class + save preference
   useEffect(() => {
-    if (darkMode) {
-      document.body.classList.add("dark-mode");
-    } else {
-      document.body.classList.remove("dark-mode");
-    }
-  }, [darkMode]);
+    document.body.classList.toggle("dark-mode", darkMode)
+    localStorage.setItem("darkMode", JSON.stringify(darkMode))
+  }, [darkMode])
+
+  // ✅ Clean toggle (no TS error)
+  const toggleDarkMode = () => {
+    setDarkMode(prev => !prev)
+  }
 
   return (
     <>
-      <Navbar toggleDarkMode={() => setDarkMode(!darkMode)} darkMode={darkMode} />
+      <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
 
       <Routes>
         <Route path="/" element={<Home darkMode={darkMode} />} />
@@ -38,4 +44,5 @@ function App() {
     </>
   )
 }
+
 export default App

@@ -33,3 +33,4 @@ As we pass the torch to the adventurers among u, to let new visions flow.
 
 **By Rosh**
 
+**Rating: 4/10**

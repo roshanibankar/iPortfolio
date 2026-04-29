@@ -28,5 +28,7 @@ Cause who's to say the moon won't catch fire someday,
 Like an unexpected encounter here to stay.
 
 
-*By Rosh*  
+**By Rosh** 
+
+**Rating: 4.5/10**
 

@@ -1,5 +1,5 @@
 ---
-title: Delay 
+title: Delay (A Digital Drift)
 date: 2024-08-29
 type: poem
 ---
@@ -33,3 +33,5 @@ We’re closer than their long goodbyes.
 
 
 **By Rosh**  
+
+**Rating: 8.5/10**

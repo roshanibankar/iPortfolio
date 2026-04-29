@@ -30,3 +30,5 @@ The memory of connection lights the day.
 
 
 **By Rosh**  
+
+**Rating: 5/10**
