@@ -1,4 +1,8 @@
-
+const e=`---
+title: The Moon & The Fire
+date: 2023-03-22
+type: poem
+---
 
 
 In the dance of night, where shadows loom,  
@@ -24,5 +28,8 @@ Cause who's to say the moon won't catch fire someday,
 Like an unexpected encounter here to stay.
 
 
-*By Rosh*  
-*Rating: 7/10*
+**By Rosh** 
+
+**Rating: 4.5/10**
+
+`;export{e as default};

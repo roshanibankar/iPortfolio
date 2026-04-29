@@ -1,3 +1,8 @@
+const n=`---
+title: Conversation with Sloth
+date: 2024-12-9
+type: poem
+---
 
 **Z:**  
 If what I say could speak 1000 ways,  
@@ -60,4 +65,6 @@ Of landing sideways in a coin toss!
 
 
 **By Rosh & Mukks**  
+
 **Rating: 9/10**
+`;export{n as default};

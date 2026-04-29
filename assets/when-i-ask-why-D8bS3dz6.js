@@ -1,4 +1,8 @@
-
+const n=`---
+title: When I ask "why"
+date: 2023
+type: poem
+---
 
 When I ask "why",  
 Tempers may rise & some may sign.  
@@ -12,5 +16,6 @@ And if I ask a wrong question someday,
 Will you stay with me until we frame it another way?  
 
 
-**By Rosh**  
-**Rating: 5/10**
+**By Rosh**
+
+**Rating: 5/10**`;export{n as default};

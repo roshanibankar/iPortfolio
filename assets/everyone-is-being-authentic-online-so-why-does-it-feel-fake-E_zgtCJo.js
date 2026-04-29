@@ -1,3 +1,9 @@
+const e=`---
+title: Everyone Is Being Authentic Online So Why Does It Feel Fake
+date: 2026-03-04
+type: Article
+---
+
 ![Dal Moro's Pasta Place](/iPortfolio/post-media/cafe-dal-moro.jpg)
 
 *Dal Moro's Pasta Place @ Phoenix Marketcity*
@@ -6,7 +12,7 @@
 
 I’m sitting in a café writing this post while the song *“My Dil Goes Mmmm”* plays in my headphones. Writing this gives me the classic *romance novelist in a café on a quiet afternoon* vibe. Almost as if this will turn out to be one of those posts that somehow leads me to meet the love of my life.  
 
-Or maybe he’ll just show up in this café, accidentally drop his coffee on me, and that’s how the fairytale begins :')
+Or maybe he’ll just show up in this café, accidentally drop his coffee on me and that’s how the fairytale begins :')
 
 I grew up watching **Romedy Now** during my teenage years and was, obviously, captivated by the endless list of romantic endings. So of course I yearn for my own happy ending too. Who wouldn’t?
 
@@ -113,7 +119,7 @@ Aesthetics aren’t the problem.
 
 Street photographers, documentary filmmakers, and scientists carefully frame their shots but their goal is **revealing something real**, not performing.
 
-Maybe that’s the deeper form of authenticity not just **sharing life**, but **understanding it**.
+Maybe that’s the deeper form of **authenticity is not just sharing life, but understanding it**.
 
 And sometimes you see it in love too.
 
@@ -148,5 +154,6 @@ It’s about **seeing the world clearly enough to find something true.**
 
 
 
-*Cheers,*  
-*Rosh*
+**Cheers,**  
+**Rosh**
+`;export{e as default};

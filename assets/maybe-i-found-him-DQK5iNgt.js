@@ -1,4 +1,8 @@
-
+const e=`---
+title: Maybe I Found Him
+date: 2023-02-28
+type: poem
+---
 
 Words like embers, comfort and inspire,  
 But actions fans the flames, set hearts on fire.  
@@ -26,4 +30,6 @@ The memory of connection lights the day.
 
 
 **By Rosh**  
-**Rating: 7/10**
+
+**Rating: 5/10**
+`;export{e as default};
