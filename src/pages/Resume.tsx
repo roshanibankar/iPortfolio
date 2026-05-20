@@ -19,6 +19,7 @@ export default function Resume() {
             <div>
               <span className="org-name">TEDxCITBengaluru</span>
               <span className="role-name">Lead Curator</span>
+              <span className="resume-submeta">Curated TEDx events "Aether" and "Epoch," selecting 10+ speakers for an audience of 300+ attendees per event. </span>
               <span className="resume-meta">Jul 2024 – Jun 2025</span>
             </div>
           </div>
@@ -28,6 +29,7 @@ export default function Resume() {
             <div>
               <span className="org-name">UNISEC-Global</span>
               <span className="role-name">Student Research Assistant</span>
+              <span className="resume-submeta">Won recognition and sponsorship from Taiwan Space Agency (TASA). Worked on flight hardware, RF telemetry, along with drone-assisted testing for cansats.</span>
               <span className="resume-meta">Jul 2024 – Dec 2024</span>
             </div>
           </div>
@@ -37,6 +39,7 @@ export default function Resume() {
             <div>
               <span className="org-name">Samsung Innovation Campus</span>
               <span className="role-name">Data Analytics Trainee</span>
+              <span className="resume-submeta">Build a aestroid orbit predition model using machine learning, achieving 85% accuracy to visualize asteroid trajectories and impact probabilities.</span> 
               <span className="resume-meta">Sep 2023 – Feb 2024</span>
             </div>
           </div>
