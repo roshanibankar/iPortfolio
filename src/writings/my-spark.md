@@ -1,5 +1,5 @@
 ---
-title: Tiger Zinda Hai (Magical Stars iykyk)
+title: My Spark
 date: 2026-04-05
 type: poem
 ---
