@@ -39,8 +39,7 @@ export default function Resume() {
             <div>
               <span className="org-name">Samsung Innovation Campus</span>
               <span className="role-name">Data Analytics Trainee</span>
-              <span className="resume-submeta">Build a aestroid orbit predition model using machine learning, achieving 85% accuracy to visualize asteroid trajectories and impact probabilities.</span> 
-              <span className="resume-meta">Sep 2023 – Feb 2024</span>
+              <span className="resume-submeta">Build a aestroid orbit predition model using machine learning, achieving 85% accuracy to visualize asteroid trajectories.</span>
             </div>
           </div>
         </section>
