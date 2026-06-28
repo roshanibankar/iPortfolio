@@ -326,14 +326,10 @@ body {
   margin: 0 0.4rem;
   font-weight: 700;
   transition: color 0.2s ease, font-weight 0.2s ease;
+    padding: 4px 8px;
+
 }
 
-/* Separator for desktop */
-.nav-links a:not(:last-child)::after {
-  content: " | ";
-  margin-left: 0.4rem;
-  color: rgb(0, 0, 0);   
-}
 
 .nav-links a:hover {
   color: rgb(87, 88, 88);     

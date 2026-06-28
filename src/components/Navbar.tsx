@@ -18,11 +18,11 @@ export default function Navbar({ toggleDarkMode, darkMode }: Props) {
 
       {/* Links */}
       <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-        <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-        <Link to="/writings" onClick={() => setMenuOpen(false)}>Writings</Link>
-        <Link to="/resume" onClick={() => setMenuOpen(false)}>Resume</Link>
-        <Link to="/backpacking" onClick={() => setMenuOpen(false)}>Backpacking</Link>
-        <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
+        <Link to="/" onClick={() => setMenuOpen(false)}>|  Home</Link>
+        <Link to="/writings" onClick={() => setMenuOpen(false)}>|  Writings</Link>
+        <Link to="/resume" onClick={() => setMenuOpen(false)}> |   Resume</Link>
+        <Link to="/backpacking" onClick={() => setMenuOpen(false)}> |   Backpacking</Link>
+        <Link to="/projects" onClick={() => setMenuOpen(false)}> |   Projects</Link>
       </nav>
 
       {/* Right side controls */}
