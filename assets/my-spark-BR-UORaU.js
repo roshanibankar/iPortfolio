@@ -1,5 +1,5 @@
 const n=`---
-title: Tiger Zinda Hai (Magical Stars iykyk)
+title: My Spark
 date: 2026-04-05
 type: poem
 ---
@@ -23,7 +23,7 @@ And when found,
 It shines in my hand like it always knew its worth.  
 
 I want to write of its light, keep it close, keep it true,  
-Hide it from the world or give it to you.  
+Hide it from the world and give it to you.  
 Now I see why the shore pulled me free  
 Cause some things aren’t lost.  
 They’re just found differently.
