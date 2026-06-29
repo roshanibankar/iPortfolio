@@ -12,19 +12,16 @@ import Navbar from './components/Navbar'
 
 function App() {
 
-  // ✅ Typed state + default dark mode + persistence
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem("darkMode")
     return saved ? JSON.parse(saved) : true
   })
 
-  // ✅ Apply class + save preference
   useEffect(() => {
     document.body.classList.toggle("dark-mode", darkMode)
     localStorage.setItem("darkMode", JSON.stringify(darkMode))
   }, [darkMode])
 
-  // ✅ Clean toggle (no TS error)
   const toggleDarkMode = () => {
     setDarkMode(prev => !prev)
   }

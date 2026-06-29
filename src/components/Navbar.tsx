@@ -8,21 +8,22 @@ type Props = {
 }
 
 export default function Navbar({ toggleDarkMode, darkMode }: Props) {
-
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const toggleMenu = () => setMenuOpen(!menuOpen)
+  // Explicit functions instead of inline arrow handlers prevent unnecessary re-renders
+  const handleLinkClick = () => setMenuOpen(false)
+  const handleToggleMenu = () => setMenuOpen((prev) => !prev)
 
   return (
     <header className="navbar">
 
       {/* Links */}
       <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-        <Link to="/" onClick={() => setMenuOpen(false)}>|  Home</Link>
-        <Link to="/writings" onClick={() => setMenuOpen(false)}>|  Writings</Link>
-        <Link to="/resume" onClick={() => setMenuOpen(false)}> |   Resume</Link>
-        <Link to="/backpacking" onClick={() => setMenuOpen(false)}> |   Backpacking</Link>
-        <Link to="/projects" onClick={() => setMenuOpen(false)}> |   Projects</Link>
+        <Link to="/" onClick={handleLinkClick}>|  Home</Link>
+        <Link to="/writings" onClick={handleLinkClick}>|  Writings</Link>
+        <Link to="/resume" onClick={handleLinkClick}> |   Resume</Link>
+        <Link to="/backpacking" onClick={handleLinkClick}> |   Backpacking</Link>
+        <Link to="/projects" onClick={handleLinkClick}> |   Projects</Link>
       </nav>
 
       {/* Right side controls */}
@@ -34,7 +35,7 @@ export default function Navbar({ toggleDarkMode, darkMode }: Props) {
         </button>
 
         {/* Hamburger menu */}
-        <div className="menu-toggle" onClick={toggleMenu}>
+        <div className="menu-toggle" onClick={handleToggleMenu}>
           {menuOpen ? "×" : "☰"}
         </div>
 
