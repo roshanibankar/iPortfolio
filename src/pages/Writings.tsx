@@ -10,7 +10,7 @@ interface Writing {
 }
 
 interface Star {
-  id: number;
+  id: number; // Changed from random float to index-based tracking
   top: string;
   left: string;
   size: string;
@@ -20,8 +20,8 @@ interface Star {
 const STAR_COUNT = 30;
 
 function generateStars(): Star[] {
-  return Array.from({ length: STAR_COUNT }).map(() => ({
-    id: Math.random(),
+  return Array.from({ length: STAR_COUNT }).map((_, index) => ({
+    id: index, // Fixed ID ensures React updates properties instead of destroying/recreating DOM elements
     top: `${Math.random() * 100}%`,
     left: `${Math.random() * 100}%`,
     size: `${1 + Math.random() * 2}rem`,
@@ -29,7 +29,7 @@ function generateStars(): Star[] {
   }));
 }
 
-// 👇 frontmatter parser
+// Frontmatter parser
 function parseFrontmatter(raw: string) {
   const match = raw.match(/^---\n([\s\S]*?)\n---/);
   if (!match) return { data: {}, content: raw };
@@ -40,7 +40,9 @@ function parseFrontmatter(raw: string) {
   const data: Record<string, string> = {};
   frontmatter.split("\n").forEach((line) => {
     const [key, ...rest] = line.split(":");
-    data[key.trim()] = rest.join(":").trim();
+    if (key) {
+      data[key.trim()] = rest.join(":").trim();
+    }
   });
 
   return { data, content };
@@ -52,29 +54,29 @@ export default function Writings() {
 
   useEffect(() => {
     const loadWritings = async () => {
-      const files = import.meta.glob("../writings/*.md", { as: "raw" });
+      // Modern Vite glob configuration for loading raw file text content
+      const files = import.meta.glob("../writings/*.md", { query: "?raw", import: "default" });
 
-      const loaded: Writing[] = [];
-
-      for (const path in files) {
-        const raw = await files[path]();
+      // Map paths to parallel execution promises instead of an awaited sequential loop
+      const promises = Object.entries(files).map(async ([path, resolver]) => {
+        const raw = (await resolver()) as string;
         const { data } = parseFrontmatter(raw);
+        const slug = path.split("/").pop()?.replace(".md", "") || "";
 
-        const slug =
-          path.split("/").pop()?.replace(".md", "") || "";
-
-        loaded.push({
-          title: data.title,
-          date: data.date,
-          type: data.type,
+        return {
+          title: data.title || "Untitled",
+          date: data.date || new Date().toISOString(),
+          type: data.type || "Post",
           slug,
-        });
-      }
+        };
+      });
 
+      // Resolve all files concurrently
+      const loaded = await Promise.all(promises);
+
+      // Sort chronological metadata on the final compiled array
       loaded.sort(
-        (a, b) =>
-          new Date(b.date).getTime() -
-          new Date(a.date).getTime()
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
       );
 
       setWritings(loaded);
