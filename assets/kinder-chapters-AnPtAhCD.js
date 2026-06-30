@@ -18,7 +18,7 @@ Too intense.
 Too quiet.  
 Too ambitious for someone  
 With tired eyes and secondhand books,  
-They mistook my silence for a surrender.  
+They mistook my silence for sudden surrender.  
 
 Life stripped me like a bark from a winter-worn tree,  
 Till I needed no applause to know I was free.  
@@ -27,12 +27,11 @@ I stopped asking the world to prove it was kind.
 
 And that’s when he walked in,  
 Curious about his path crossing mine  
-And whispered- some things are worth the wait,  
-To which I said-
-If kinder chapters are due,  
+Saying some things are worth the wait,  
+So if kinder chapters are due,  
 I'd fight for them too,  
 Preferably with less chaos,  
-As they’ll be featuring you.  
+As they’ll be featuring him.  
 
 
 **By Rosh**
