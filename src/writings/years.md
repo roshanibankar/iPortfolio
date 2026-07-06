@@ -1,7 +1,7 @@
 ---
 title: Years 
 date: 2026-07-01
-type: poem
+type: writing
 ---
 
 # Jan 2026: 
