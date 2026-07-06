@@ -8,7 +8,7 @@ type: writing
 Reality is a draft until I design it.
 
 # Feb 2026: 
-Be independent at your core; trust people, but don’t depend on them to hold you together, it's not their responsibility.
+Be independent at your core; trust people, but don’t depend on them to hold you together.
 
 # Mar 2026: 
 Choices creates patterns that's karma, don't confuse it with justice
