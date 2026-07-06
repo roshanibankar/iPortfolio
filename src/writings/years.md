@@ -11,7 +11,7 @@ Reality is a draft until I design it.
 Be independent at your core; trust people, but don’t depend on them to hold you together.
 
 # Mar 2026: 
-Choices creates patterns that's karma, don't confuse it with justice
+Choices creates patterns that's karma, don't confuse it with justice.
 
 # Apr 2026: 
 Give up the known in favor of the unknown cause stepping out of your usual environment(trips) changes you more than familiar comfort; never settle for a substitute on your authentic wishlist for just being relatable.
