@@ -3,6 +3,7 @@ title: On Love
 date: 2026-07-08
 type: Article
 ---
+I'm at a better position in life, where I think I can write about love and relationships from a mature perspective. So as I'm half-way towards turning 23, here are 23 ideas on love I'd take a stand for.
 
 ## 1. Love is a Choice on a Random Tuesday
 
@@ -135,7 +136,7 @@ As if even some steps back are a part of a dance with you ♡
 
 ## 21. Aging & Decay
 
-"The Forever" means holding space for the slow fading of the adventurous body. It means looking past youth, city walks, and high energy, and committing to care for each other through sickness, physical vulnerability, and the slow quiet of aging.
+"The Forever" means holding space for the slow fading of the adventurous body. It means looking past youth, city walks, and high energy, and committing to care for each other through sickness, physical vulnerability and the slow quiet of aging.
 
 ## 22. Cultural, Financial & Political Views
 
@@ -151,4 +152,3 @@ Every love story leaves behind a legacy in the form of hope for finding true lov
 
 It’s about building something so solid that it easily outlasts us.
 
-### Cause the training season's over!
