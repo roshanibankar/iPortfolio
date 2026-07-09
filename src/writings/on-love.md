@@ -54,6 +54,8 @@ Life is unpredictable, and that is entirely tolerable. What is completely unacce
 ## 6. Presence Over Maintenance
 
 A high-maintenance relationship drains your spirit. A high-presence relationship sustains it. You do not need a connection that requires a constant performance or walking on eggshells to keep alive. You need an honest, steady, unfiltered presence. You don't have to entertain them to make them stay on tiring days.
+And for some iconic psychos who say- what if people give up too easily?   
+>stop confusing "low-maintenance" with "zero-effort"
 
 ## 7. The Goal is to be Known, Not Chosen
 
