@@ -155,5 +155,11 @@ A secure bond knows how to bend when life gets heavy, cause true independence is
 It’s about building something so solid that it easily outlasts us.
 
 
+
+
+
+> P.S They won't hit all the points on day 1 of meeting you. You just need someone who has the capacity and the desire to build them with you over time. 
+Keep your high standards. Don't lower the bar. Just remember to leave a little room for the chaotic, clumsy, human ways people try to reach it.
+
 **Cheers,**  
 **Rosh**
