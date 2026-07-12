@@ -150,11 +150,7 @@ The same goes for money and politics. You can't build a life with someone who se
 
 Every love story leaves behind a legacy in the form of hope for finding true love in every generation. I hope mine does too. But let's be real: the ultimate legacy is building a bond so bulletproof that our future kids don't have to spend their entire twenties in therapy unlearning our toxic communication habits. 
 
-A secure bond knows how to bend when life gets heavy, cause true independence isn't about never needing a hand, it’s about knowing how to hold space for each other when the lighthouse temporarily goes dark.
-
 It’s about building something so solid that it easily outlasts us.
-
-
 
 
 
