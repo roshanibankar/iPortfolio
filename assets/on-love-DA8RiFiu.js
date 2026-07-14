@@ -17,7 +17,7 @@ I spend the day working on architectural renders. In the evening, I get a messag
 
 We meet up.
 
-Maybe we grab food, walk around, talk about some building, some movie, or some ridiculous friendship dilemma.
+Maybe we grab food, walk around, talk about some building, some movie or some ridiculous friendship dilemma.
 
 At some point, there's a hug, maybe a hand held absent-mindedly.
 
@@ -49,7 +49,7 @@ Taking chances with getting to know people increases the chance you’ll experie
 
 ## 5. Tolerate Uncertainty But Never Accept Aimlessness
 
-Life is unpredictable and that is entirely tolerable. What is completely unacceptable is a lack of direction, drive, or intention. A partner must have their own goals and a clear sense of purpose. Without it, you'll be signing up for a waiting game, which will eventually compromise your own growth and peace.
+Life is unpredictable and that is entirely tolerable. What is completely unacceptable is a lack of direction, drive or intention. A partner must have their own goals and a clear sense of purpose. Without it, you'll be signing up for a waiting game, which will eventually compromise your own growth and peace.
 
 ## 6. Presence Over Maintenance
 
@@ -124,7 +124,7 @@ Fight in your Pilates class or mediation class, sleep on the floor and fight, bu
 
 ## 19. Sealed in Laughter
 
-It's a long life, and if someone doesn't make you smile and laugh most of your days, that's terrifying—cause I can make myself laugh a dozen times a day, might as well live alone then.
+It's a long life, and if someone doesn't make you smile and laugh most of your days, that's terrifying, cause I can make myself laugh a dozen times a day, might as well live alone then.
 
 ## 20. Shut Up and Dance with Me!
 
@@ -144,16 +144,18 @@ We like to think love is enough, but it isn't. You can't survive on romance; you
 
 Culture isn't about blind tradition. It’s about agreeing on how to build a peaceful home and knowing that protecting your future family matters more than outdated societal expectations. 
 
-The same goes for money and politics. You can't build a life with someone who sees independence, finances, or basic human rights through an opposite lens, because arguing about human decency or an overdrawn bank account on a Tuesday morning is how murders happen. If you don't agree on how the world works, you’re just waiting for the earthquake that splits you apart.
+The same goes for money and politics. You can't build a life with someone who sees independence, finances or basic human rights through an opposite lens, cause arguing about human decency or an overdrawn bank account on a Tuesday morning is how murders happen. If you don't agree on how the world works, you’re just waiting for the earthquake that splits you apart.
 
 ## 23. Legacy
 
 Every love story leaves behind a legacy in the form of hope for finding true love in every generation. I hope mine does too. But let's be real: the ultimate legacy is building a bond so bulletproof that our future kids don't have to spend their entire twenties in therapy unlearning our toxic communication habits. 
 
-A secure bond knows how to bend when life gets heavy, cause true independence isn't about never needing a hand, it’s about knowing how to hold space for each other when the lighthouse temporarily goes dark.
-
 It’s about building something so solid that it easily outlasts us.
 
+
+
+> P.S They won't hit all the points on day 1 of meeting you. You just need someone who has the capacity and the desire to build them with you over time. 
+Keep your high standards. Don't lower the bar. Just remember to leave a little room for the chaotic, clumsy, human ways people try to reach it.
 
 **Cheers,**  
 **Rosh**`;export{e as default};
