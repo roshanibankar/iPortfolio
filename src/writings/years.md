@@ -1,6 +1,6 @@
 ---
 title: Years 
-date: 2026-07-01
+date: 2026-07-21
 type: writing
 ---
 
@@ -22,9 +22,8 @@ Shift the focus from 'maybe I’m not good enough' to 'maybe I need to do it my 
 ## Jun 2026: 
 You are what you love.
 
-
 ## Jul 2026: 
-If you'd like something better, then a routine you are comfortable with may have to die.
+If you are not ready to fight, the silence will kill you. 
 
 ## Aug 2026
 
