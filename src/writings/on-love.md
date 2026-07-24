@@ -81,7 +81,9 @@ without weaponizing an argument, shifting the blame, or making the other person 
 
 ## 10. Self-Love Raises the Bar (And That’s a Good Thing)
 
-The more you deeply love, respect and hold yourself accountable, the harder it becomes for just anyone to love you. Never lower the bar just to accommodate someone who isn't ready to climb to your level. If you are the ocean, be an ocean. Don't be a pond just because people can't swim.
+The more you deeply love, respect and hold yourself accountable, the harder it becomes for just anyone to love you. Never lower the bar just to accommodate someone who isn't ready to climb to your level. Communicate your boundaries. People either rise to your standards or drift away. If you are the ocean, be an ocean. Don't be a pond just because people can't swim.
+
+And I always remind myself about this point on caring for the right people around me- When my cup overflows, I will pour it into those who helped me fill it and strangers who need it, not those who punched holes in it. 
 
 ## 11. Stop Asking About 10-Year Plans, Start Building Them Together
 
@@ -89,7 +91,7 @@ Stop interviewing people like HR managers about where they see themselves in a d
 
 ## 12. The Rhythm Over the Match
 
-Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies and books is the sweet spot—enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs).
+Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies, eating styles and books is the sweet spot, enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs).
 
 ## 13. Define Your Readiness
 
