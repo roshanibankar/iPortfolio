@@ -83,7 +83,7 @@ without weaponizing an argument, shifting the blame, or making the other person 
 
 The more you deeply love, respect and hold yourself accountable, the harder it becomes for just anyone to love you. Never lower the bar just to accommodate someone who isn't ready to climb to your level. Communicate your boundaries. People either rise to your standards or drift away. If you are the ocean, be an ocean. Don't be a pond just because people can't swim.
 
-And I always remind myself about this point on caring for the right people around me- When my cup overflows, I will pour it into those who helped me fill it and strangers who need it, not those who punched holes in it. 
+And I always remind myself about this analogy on caring for the right people around me- When my cup overflows, I will pour it into those who helped me fill it and strangers who need it, not those who punched holes in it. 
 
 ## 11. Stop Asking About 10-Year Plans, Start Building Them Together
 
