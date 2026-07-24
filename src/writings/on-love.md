@@ -57,7 +57,7 @@ A high-maintenance relationship drains your spirit. A high-presence relationship
 And for some iconic psychos who say- what if people give up too easily?   
 >stop confusing "low-maintenance" with "zero-effort"
 
-## 7. The Goal is to be Known, Not Chosen
+## 7. The Goal is to be Known, Not Just Chosen
 
 Being chosen merely satisfies the ego. Being deeply, thoroughly known satisfies the soul. True alignment means finding the person who actively notices how you want to be cared for (which is a rare trait), rather than someone who just passively absorbs the care you give to them after choosing you. It also means having the courage to show your raw, unedited truth like your fears, your quirks, your actual thoughts, rather than a curated version of yourself.
 
