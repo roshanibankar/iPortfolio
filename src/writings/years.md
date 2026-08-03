@@ -14,18 +14,19 @@ Be independent at your core; trust people, but don’t depend on them to hold yo
 Choices creates patterns that's karma, don't confuse it with justice.
 
 ## Apr 2026: 
-Give up the known in favor of the unknown cause stepping out of your usual environment(trips) changes you more than familiar comfort; never settle for a substitute on your authentic wishlist for just being relatable.
+Don't settle for an alternative of your wishlist.
 
 ## May 2026: 
-Shift the focus from 'maybe I’m not good enough' to 'maybe I need to do it my way,' because there is no manual for life.
+"Maybe I'm not good enough" to "I need to do it my way".
 
 ## Jun 2026: 
 You are what you love.
 
 ## Jul 2026: 
-If you are not ready to fight, the silence will kill you. 
+If you don't fight, the silence will kill you. 
 
 ## Aug 2026
+Show certainty.
 
 ## Sep 2026
 
