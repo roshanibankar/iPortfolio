@@ -10,7 +10,7 @@ export default function Home({ darkMode }: Props) {
     "Roshani Bankar",
     "an engineer & an architectural designer ",
     "a content writer",
-    "a video editor, an artist, a cat lover, a backpacking enthusiast",
+    "a video editor, an artist, a cat lover, a travel enthusiast",
   ];
 
   // Icon paths based on dark mode
@@ -57,7 +57,6 @@ export default function Home({ darkMode }: Props) {
             <ul>
               <li>Working on avionics hardware and software </li>
               <li>Competing at architectural competitions</li>
-              <li>Designing and curating the yearbook for my college friends</li>
             </ul>
           </div>
 
