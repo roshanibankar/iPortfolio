@@ -9,11 +9,11 @@ export default function Home({ darkMode }: Props) {
   const dynamicPhrases = [
     "Roshani Bankar",
     "an engineer & an architectural designer ",
-    "a content writer",
-    "a video editor, an artist, a cat lover, a travel enthusiast",
+    "a video editor",
+    "a content writer, an artist, a cat lover, a sunset enthusiast",
   ];
 
-  // Icon paths based on dark mode
+  // Icon paths for dark mode
   const icons = {
     github: darkMode ? "/iPortfolio/logos/github-white.png" : "/iPortfolio/logos/github.svg",
     youtube: darkMode ? "/iPortfolio/logos/youtube-app-white.png" : "/iPortfolio/logos/youtube.svg",
@@ -23,7 +23,6 @@ export default function Home({ darkMode }: Props) {
 
   return (
     <>
-      {/* Hero Section */}
       <section className="home-hero">
         <div className="hero-content">
           <h1 style={{ fontWeight: 700, textShadow: "1px 1px 2px rgba(0,0,0,0.3)" }}>
@@ -48,8 +47,8 @@ export default function Home({ darkMode }: Props) {
             <h2><strong>Hi there!</strong></h2>
             <p>
               My name is Roshani Bankar. I am currently working on avionics projects. 
-              I have a strong passion for building architecture, landscape and urban planning projects. 
-              I am a final-year undergrad and have previously worked on robotics SLAM and avionics research. 
+              I have a strong passion for building architectural, landscape and urban planning projects. 
+              I'm an undergraduate and have previously worked on cubseat flight, SAR, hyperspectral imaging; high energy physics research. 
               And if you plan to build structures and circuits that merge art & tech then we should definitely connect!
             </p>
 
@@ -58,8 +57,6 @@ export default function Home({ darkMode }: Props) {
               <li>Working on avionics hardware and software </li>
               <li>Competing at architectural competitions</li>
               <p>
-
-
               </p>
             </ul>
           </div>

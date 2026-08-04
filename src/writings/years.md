@@ -23,10 +23,10 @@ Don't settle for an alternative of your wishlist.
 You are what you love.
 
 ## Jul 2026: 
-If you don't fight, the silence will kill you. 
+Believe in your ability to fly away. Outgrowing people is normal.
 
 ## Aug 2026
-Show certainty.
+
 
 ## Sep 2026
 
