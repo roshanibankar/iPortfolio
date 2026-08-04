@@ -57,6 +57,10 @@ export default function Home({ darkMode }: Props) {
             <ul>
               <li>Working on avionics hardware and software </li>
               <li>Competing at architectural competitions</li>
+              <p>
+
+
+              </p>
             </ul>
           </div>
 
@@ -84,7 +88,7 @@ export default function Home({ darkMode }: Props) {
         </div>
       </main>
 
-      <footer style={{ textAlign: "center", padding: "20px 0" }} className="home-body">
+      <footer style={{ textAlign: "center", padding: "20px 0", marginTop: "100px" }} className="home-body">
         <p>reality is a draft until i design it :)) </p>
         <p>&copy; Roshani Bankar 2026</p>
       </footer>
