@@ -26,7 +26,7 @@ You are what you love.
 Believe in your ability to fly away. Outgrowing people is normal.
 
 ## Aug 2026
-
+Show Certainty.
 
 ## Sep 2026
 

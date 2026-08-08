@@ -50,7 +50,7 @@ And it really is interesting to believe you are the main character of your life,
 
 But the problem begins when we start seeking validation from others to believe that.
 
-The rise of individualism is great, but that doesn’t mean we won’t match outfits, order the same frappe, or choose the same pasta. Sure, you shouldn’t always follow the crowd, but someone choosing the same dish, idea, or opinion as you doesn’t suddenly make them a *“conventional-only”* person.
+The rise of individualism is great, but that doesn’t mean we won’t match outfits, order the same frappe or choose the same pasta. Sure, you shouldn’t always follow the crowd, but someone choosing the same dish, idea or opinion as you doesn’t suddenly make them a *“conventional-only”* person.
 
 The present times encourage us to document our lives in creative ways random grocery store stories, morning routines, small everyday moments.
 
@@ -142,7 +142,7 @@ And attention creates its own kind of magic.
 
 Now I look around and see a café moment being staged for photos.  
 
-But then I notice my coffee is getting cold, the song in my headphones is ending, and the café is still humming around me.
+But then I notice my coffee is getting cold, the song in my headphones is ending and the café is still humming around me.
 
 Maybe authenticity isn’t a scene after all.
 

@@ -77,7 +77,7 @@ A secure bond requires the emotional maturity to step up and say,
 
 > "I made a mistake and I am sorry,"
 
-without weaponizing an argument, shifting the blame, or making the other person feel small for reacting to pain. Being unaccountable is the ultimate dealbreaker in any relationship.
+without weaponizing an argument, shifting the blame or making the other person feel small for reacting to pain. Being unaccountable is the ultimate dealbreaker in any relationship.
 
 ## 10. Self-Love Raises the Bar (And That’s a Good Thing)
 
@@ -121,7 +121,7 @@ A relationship cannot survive in an isolated romantic bubble. A partner must hav
 
 ## 18. Healthy Fights
 
-A peaceful home doesn't mean a silent one. A healthy relationship requires a clear protocol for disagreement: the absolute refusal to use the cold shoulder, emotional withdrawal, or a war of "who is to blame" as weapons when things get tense. 
+A peaceful home doesn't mean a silent one. A healthy relationship requires a clear protocol for disagreement: the absolute refusal to use the cold shoulder, emotional withdrawal or a war of "who is to blame" as weapons when things get tense. 
 Fight in your Pilates class or mediation class, sleep on the floor and fight, but just don't let your goddamn ego take the spotlight.
 
 ## 19. Sealed in Laughter
