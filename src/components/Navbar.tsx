@@ -19,19 +19,22 @@ export default function Navbar({ toggleDarkMode, darkMode }: Props) {
 
       {/* Links */}
       <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
+        
   <Link to="/" onClick={handleLinkClick} data-text="01 : Home"> Home </Link>
+  <span className="nav-separator">|</span>
+
+  <Link to="/projects" onClick={handleLinkClick} data-text="05 : Projects"> Projects</Link>
+  <span className="nav-separator">|</span>
+
+  <Link to="/resume" onClick={handleLinkClick} data-text="03 : Resume"> Resume</Link>
   <span className="nav-separator">|</span>
   
   <Link to="/writings" onClick={handleLinkClick} data-text="02 : Writings"> Writings</Link>
   <span className="nav-separator">|</span>
   
-  <Link to="/resume" onClick={handleLinkClick} data-text="03 : Resume"> Resume</Link>
-  <span className="nav-separator">|</span>
-  
   <Link to="/backpacking" onClick={handleLinkClick} data-text="04 : Backpacking"> Backpacking</Link>
-  <span className="nav-separator">|</span>
   
-  <Link to="/projects" onClick={handleLinkClick} data-text="05 : Projects"> Projects</Link>
+  
 </nav>
 
       {/* Right side controls */}
