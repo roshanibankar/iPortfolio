@@ -3,7 +3,8 @@ title: On Love
 date: 2026-07-08
 type: Article
 ---
-I'm at a better position in life, where I think I can write about love and relationships from a mature perspective. So as I'm half-way towards turning 23, here are 23 ideas on love I'd take a stand for.
+As I approach 23, I find myself looking at love and relationships through a clearer, more grounded lens. Here are 23 ideas on love that I’m ready to take a stand for.
+
 
 ## 1. Love is a Choice on a Random Tuesday
 
@@ -57,7 +58,7 @@ A high-maintenance relationship drains your spirit. A high-presence relationship
 And for some iconic psychos who say- what if people give up too easily?   
 >stop confusing "low-maintenance" with "zero-effort"
 
-## 7. The Goal is to be Known, Not Chosen
+## 7. The Goal is to be Known, Not Just Chosen
 
 Being chosen merely satisfies the ego. Being deeply, thoroughly known satisfies the soul. True alignment means finding the person who actively notices how you want to be cared for (which is a rare trait), rather than someone who just passively absorbs the care you give to them after choosing you. It also means having the courage to show your raw, unedited truth like your fears, your quirks, your actual thoughts, rather than a curated version of yourself.
 
@@ -77,11 +78,13 @@ A secure bond requires the emotional maturity to step up and say,
 
 > "I made a mistake and I am sorry,"
 
-without weaponizing an argument, shifting the blame, or making the other person feel small for reacting to pain. Being unaccountable is the ultimate dealbreaker in any relationship.
+without weaponizing an argument, shifting the blame or making the other person feel small for reacting to pain. Being unaccountable is the ultimate dealbreaker in any relationship.
 
 ## 10. Self-Love Raises the Bar (And That’s a Good Thing)
 
-The more you deeply love, respect and hold yourself accountable, the harder it becomes for just anyone to love you. Never lower the bar just to accommodate someone who isn't ready to climb to your level. If you are the ocean, be an ocean. Don't be a pond just because people can't swim.
+The more you deeply love, respect and hold yourself accountable, the harder it becomes for just anyone to love you. Never lower the bar just to accommodate someone who isn't ready to climb to your level. Communicate your boundaries. People either rise to your standards or drift away. If you are the ocean, be an ocean. Don't be a pond just because people can't swim.
+
+And I always remind myself about this analogy on caring for the right people around me- When my cup overflows, I will pour it into those who helped me fill it and strangers who need it, not those who punched holes in it. 
 
 ## 11. Stop Asking About 10-Year Plans, Start Building Them Together
 
@@ -89,7 +92,7 @@ Stop interviewing people like HR managers about where they see themselves in a d
 
 ## 12. The Rhythm Over the Match
 
-Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies and books is the sweet spot—enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs).
+Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies, eating styles and books is the sweet spot, enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs).
 
 ## 13. Define Your Readiness
 
@@ -119,7 +122,7 @@ A relationship cannot survive in an isolated romantic bubble. A partner must hav
 
 ## 18. Healthy Fights
 
-A peaceful home doesn't mean a silent one. A healthy relationship requires a clear protocol for disagreement: the absolute refusal to use the cold shoulder, emotional withdrawal, or a war of "who is to blame" as weapons when things get tense. 
+A peaceful home doesn't mean a silent one. A healthy relationship requires a clear protocol for disagreement: the absolute refusal to use the cold shoulder, emotional withdrawal or a war of "who is to blame" as weapons when things get tense. 
 Fight in your Pilates class or mediation class, sleep on the floor and fight, but just don't let your goddamn ego take the spotlight.
 
 ## 19. Sealed in Laughter

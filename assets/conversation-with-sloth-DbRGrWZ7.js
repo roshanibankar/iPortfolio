@@ -66,5 +66,5 @@ Of landing sideways in a coin toss!
 
 **By Rosh & Mukks**  
 
-**Rating: 7/10**
+**Rating: 8/10**
 `;export{n as default};
