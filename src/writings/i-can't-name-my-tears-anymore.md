@@ -16,7 +16,7 @@ Soft as whispers.
 
 Each droplet remembers a story I forgot,  
 A wound, a loss, a laugh, a song,  
-Yet I won’t ask it to explain.  
+Yet I won’t ask for it to explain.  
 I only let it pass,  
 And I pass too,  
 Into a space where grief can breathe,  

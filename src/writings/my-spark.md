@@ -30,4 +30,4 @@ They’re just found differently.
 
 **By Rosh**
 
-**Rating: 8/10**
+**Rating: 8.5/10**

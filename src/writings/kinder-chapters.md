@@ -28,10 +28,11 @@ I stopped asking the world to prove it was kind.
 And that’s when he walked in,  
 Curious about his path crossing mine  
 Saying some things are worth the wait,  
-So if kinder chapters are due,  
+So I said, 
+If kinder chapters are due,  
 I'd fight for them too,  
 Preferably with less chaos,  
-As they’ll be featuring him.  
+As they’ll be featuring you.  
 
 
 **By Rosh**

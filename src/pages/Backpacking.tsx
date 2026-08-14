@@ -8,15 +8,12 @@ export default function Backpacking({ darkMode }: Props) {
   const [mapsOpen, setMapsOpen] = useState(false);
 
   const mapTrips = [
-    { name: "India", link: "https://www.google.com/maps/d/u/0/edit?mid=1kA9GRkKT_4AdDFq2X-F-fVHRI0xYu_A&usp=sharing" },
-    { name: "USA & Canada", link: "https://www.google.com/maps/d/u/0/edit?mid=1tTR6kWL4osKYi-qOh8xin4I3xmDV13c&usp=sharing" },
-    { name: "South America", link: "https://www.google.com/maps/d/u/0/edit?mid=1zdXAFL24wGXV0Ylbs_NfCjg1s1G5KlQ&usp=sharing" },
-    { name: "Europe", link: "https://www.google.com/maps/d/u/0/edit?mid=1la-8LU-ISVp7S-gp9kahcd4tbeSTGnY&usp=sharing" },
-    { name: "Africa", link: "https://www.google.com/maps/d/u/0/edit?mid=1S7TH33Wcx8HGNz1_LpMkXwzV8PGT60E&usp=sharing" },
-    { name: "Japan | South-Korea", link: "https://www.google.com/maps/d/u/0/edit?mid=10xXUdPDZAAvO73pN2-6WM8-rDcO684o&usp=sharing" },
-    { name: "Vietnam | Bali", link: "https://www.google.com/maps/d/u/0/edit?mid=13q8evhJTlFuUvxea9ULgqihjjIqL3sw&usp=sharing" },
-    { name: "Australia | New-Zealand ", link: "https://www.google.com/maps/d/u/0/edit?mid=1Im3VXKJGK4Wc79ZsFRHZVJan3KDoGT8&usp=sharing" },
-    { name: "Maldives | Antartica", link: "https://www.google.com/maps/d/u/0/edit?mid=1S-BMLDdkrKHAFj-Qgf0Px0VvU0HpYIw&usp=sharing" }
+    { name: "A List of my Fav Third Spaces", link: "https://maps.app.goo.gl/zCHaasVeBzqWe98m7" },
+    { name: "Restaurants & Cafes", link: "https://maps.app.goo.gl/oSyATK4cKYSjjd9q9" },
+    { name: "Dessert Stomach", link: "https://maps.app.goo.gl/neCf8KhAG6BHjgf37" },
+    { name: "Blu Blu Beaches & Rocks", link: "https://maps.app.goo.gl/6RzGUuwYAKbbfsx7A" },
+    { name: "Stores with Personality", link: "https://maps.app.goo.gl/WEt6GQtiFKUAibrN9" },
+    { name: "Fav Matcha Spots", link: "https://maps.app.goo.gl/p2Cu35CzTxqZ7rdM9"}
   ];
 
   // Choose logo paths based on dark mode

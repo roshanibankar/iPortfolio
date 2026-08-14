@@ -3,7 +3,8 @@ title: On Love
 date: 2026-07-08
 type: Article
 ---
-I'm at a better position in life, where I think I can write about love and relationships from a mature perspective. So as I'm half-way towards turning 23, here are 23 ideas on love I'd take a stand for.
+As I approach 23, I find myself looking at love and relationships through a clearer, more grounded lens. Here are 23 ideas on love that I’m ready to take a stand for.
+
 
 ## 1. Love is a Choice on a Random Tuesday
 
