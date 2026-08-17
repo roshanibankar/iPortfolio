@@ -4,7 +4,7 @@ type Props = {
   darkMode: boolean;
 };
 
-export default function Backpacking({ darkMode }: Props) {
+export default function travel({ darkMode }: Props) {
   const [mapsOpen, setMapsOpen] = useState(false);
 
   const mapTrips = [
@@ -23,15 +23,15 @@ export default function Backpacking({ darkMode }: Props) {
   };
 
   return (
-    <div className="backpacking-page">
+    <div className="travel-page">
       {/* Background SVGs */}
       <div className="bg-top-right" />
       <div className="bg-bottom-left" />
 
-      <div className="backpacking-logos">
+      <div className="travel-logos">
         {/* VSCO Logo */}
         <a href="https://vsco.co/rowrowrosh/" target="_blank" rel="noopener noreferrer">
-          <img src={logos.vsco} alt="VSCO Logo" className="backpacking-logo" />
+          <img src={logos.vsco} alt="VSCO Logo" className="travel-logo" />
         </a>
 
         {/* Google Maps Logo */}
@@ -39,7 +39,7 @@ export default function Backpacking({ darkMode }: Props) {
           <img
             src={logos.maps}
             alt="Google Maps Logo"
-            className="backpacking-logo"
+            className="travel-logo"
             onClick={() => setMapsOpen(!mapsOpen)}
           />
 

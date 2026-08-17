@@ -394,9 +394,9 @@ body {
 /*----------------------------------------------------------*/
 
 /* ----------------------- */
-/* Backpacking page layout */
+/* travel page layout */
 /* ----------------------- */
-.backpacking-page {
+.travel-page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,7 +408,7 @@ body {
 /* ----------------------- */
 /* Logos container */
 /* ----------------------- */
-.backpacking-logos {
+.travel-logos {
   display: flex;
   gap: 4rem;
   align-items: flex-start; /* align top for branches */
@@ -417,13 +417,13 @@ body {
 }
 
 /* Individual logo */
-.backpacking-logo {
+.travel-logo {
   width: 120px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.backpacking-logo:hover {
+.travel-logo:hover {
   transform: scale(1.1);
 }
 
@@ -507,7 +507,7 @@ body {
 @media (max-width: 768px) {
 
   /* Stack logos vertically */
-  .backpacking-logos {
+  .travel-logos {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -516,7 +516,7 @@ body {
   }
 
   /* Shrink logos */
-  .backpacking-logo {
+  .travel-logo {
     width: 100px;
     cursor: pointer;
   }
