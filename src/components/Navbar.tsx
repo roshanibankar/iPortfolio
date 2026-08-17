@@ -32,7 +32,7 @@ export default function Navbar({ toggleDarkMode, darkMode }: Props) {
   <Link to="/writings" onClick={handleLinkClick} data-text="02 : Writings"> Writings</Link>
   <span className="nav-separator">|</span>
   
-  <Link to="/backpacking" onClick={handleLinkClick} data-text="04 : Backpacking"> Backpacking</Link>
+  <Link to="/travel" onClick={handleLinkClick} data-text="04 : Travel"> Travel</Link>
   
   
 </nav>
