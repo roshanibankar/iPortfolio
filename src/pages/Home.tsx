@@ -68,7 +68,7 @@ export default function Home({ darkMode }: Props) {
               <a href="https://github.com/roshanibankar" target="_blank" rel="noopener noreferrer">
                 <img src={icons.github} alt="GitHub logo" />
               </a>
-              <a href="https://www.youtube.com/@RoshLogs" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@roxhbankar" target="_blank" rel="noopener noreferrer">
                 <img src={icons.youtube} alt="YouTube logo" />
               </a>
               <a href="https://www.instagram.com/roshanibankar._" target="_blank" rel="noopener noreferrer">
