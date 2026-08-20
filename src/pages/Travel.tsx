@@ -8,12 +8,12 @@ export default function travel({ darkMode }: Props) {
   const [mapsOpen, setMapsOpen] = useState(false);
 
   const mapTrips = [
-    { name: "A List of my Fav Third Spaces", link: "https://maps.app.goo.gl/GeBNhGq9HZxEg64f6" },
-    { name: "Restaurants & Cafes", link: "https://maps.app.goo.gl/dNa8nHFyjmQKkEQn7" },
-    { name: "Dessert Stomach", link: "https://maps.app.goo.gl/ZXNytmdxLS8RTBhHA" },
-    { name: "Blu Blu Beaches & Rocks", link: "https://maps.app.goo.gl/bU8L1qXP9CSXxWCj8" },
-    { name: "Stores with Personality", link: "https://maps.app.goo.gl/mTsQ4ySWSbCSnotT6" },
-    { name: "Fav Matcha Spots", link: "https://maps.app.goo.gl/ygoTYV6hPa7qbPCN9"}
+    { name: "A List of my Fav Third Spaces", link: "https://maps.app.goo.gl/oBDuXYvcSX5aL7S5A" },
+    { name: "Restaurants & Cafes", link: "https://maps.app.goo.gl/JbEjrwxZLfWMH6re9" },
+    { name: "Dessert Stomach", link: "https://maps.app.goo.gl/xZKXj6ZaFtsh482S7" },
+    { name: "Blu Blu Beaches & Rocks", link: "https://maps.app.goo.gl/AtbUrCNFHkohNMGs6" },
+    { name: "Stores with Personality", link: "https://maps.app.goo.gl/qDnHxH3T9r1epEC47" },
+    { name: "Fav Matcha Spots", link: "https://maps.app.goo.gl/PnwVcwjVEJ78QE5r9"}
   ];
 
   // Choose logo paths based on dark mode
