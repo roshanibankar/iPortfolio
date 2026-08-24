@@ -15,6 +15,16 @@ export default function Resume() {
           <h2 className="resume-section-title">Experience</h2>
 
           <div className="resume-item">
+            <img src="/iPortfolio/logos/pixxel.png" alt="Pixxel" className="item-icon" />
+            <div>
+              <span className="org-name">Pixxel</span>
+              <span className="role-name">Electrical Engineer</span>
+              {/* <span className="resume-submeta">Build flight control ground up, worked on HSI and communication systems in the satellite that will be launched in Oct. </span> */}
+              <span className="resume-meta">Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item">
             <img src="/iPortfolio/logos/tedx.png" alt="TEDxCITBengaluru" className="item-icon" />
             <div>
               <span className="org-name">TEDxCITBengaluru</span>
