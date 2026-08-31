@@ -83,17 +83,20 @@ export default function Home({ darkMode }: Props) {
             </div>
           </div>
         </div>
-      </main>
 
-      <footer style={{ textAlign: "center", padding: "20px 0", marginTop: "100px" }} className="home-body">
+      </main>
+<footer style={{ textAlign: "center", padding: "20px 0", marginTop: "100px" }} className="home-body">
         <p>reality is a draft until i design it :)) </p>
         <p>&copy; Roshani Bankar 2026</p>
       </footer>
-      <footer>
+
+      <footer style={{ marginTop: "110px" }}>
         <div className="footer-wave">
           <img src="/iPortfolio/logos/footer-wavez.svg" alt="decorative wave" />
         </div>
       </footer> 
     </>
+    
   );
+  
 }
