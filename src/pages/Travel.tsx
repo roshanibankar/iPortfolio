@@ -13,7 +13,8 @@ export default function travel({ darkMode }: Props) {
     { name: "Dessert Stomach", link: "https://maps.app.goo.gl/xZKXj6ZaFtsh482S7" },
     { name: "Blu Blu Beaches & Rocks", link: "https://maps.app.goo.gl/AtbUrCNFHkohNMGs6" },
     { name: "Stores with Personality", link: "https://maps.app.goo.gl/qDnHxH3T9r1epEC47" },
-    { name: "Fav Matcha Spots", link: "https://maps.app.goo.gl/PnwVcwjVEJ78QE5r9"}
+    { name: "Fav Matcha Spots", link: "https://maps.app.goo.gl/PnwVcwjVEJ78QE5r9"},
+    { name: "Cafés with a View", link: "https://maps.app.goo.gl/Dy14kB4tfKHne2U28"}
   ];
 
   // Choose logo paths based on dark mode
