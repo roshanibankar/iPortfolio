@@ -10,7 +10,6 @@ type Props = {
 export default function Navbar({ toggleDarkMode, darkMode }: Props) {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  // Explicit functions instead of inline arrow handlers prevent unnecessary re-renders
   const handleLinkClick = () => setMenuOpen(false)
   const handleToggleMenu = () => setMenuOpen((prev) => !prev)
 

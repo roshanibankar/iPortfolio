@@ -16,7 +16,7 @@ function App() {
 
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem("darkMode")
-    return saved ? JSON.parse(saved) : true
+    return saved ? JSON.parse(saved) : false
   })
 
   useEffect(() => {
