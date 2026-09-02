@@ -55,7 +55,7 @@ export default function Resume() {
           </div>
         </section>
 
-        {/* Certifications */}
+        {/* Certifications
         <section className="resume-section">
           <h2 className="resume-section-title">Certifications</h2>
 
@@ -94,7 +94,7 @@ export default function Resume() {
               <span className="resume-meta">Issued Jan 2026</span>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Education */}
         <section className="resume-section">
