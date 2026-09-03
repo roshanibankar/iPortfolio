@@ -9,7 +9,7 @@ export default function travel({ darkMode }: Props) {
 
   const mapTrips = [
     { name: "A List of my Fav Third Spaces", link: "https://maps.app.goo.gl/oBDuXYvcSX5aL7S5A" },
-    { name: "Restaurants & Cafes", link: "https://maps.app.goo.gl/JbEjrwxZLfWMH6re9" },
+    { name: "Chef's Kiss (Restaurants) ", link: "https://maps.app.goo.gl/JbEjrwxZLfWMH6re9" },
     { name: "Dessert Stomach", link: "https://maps.app.goo.gl/xZKXj6ZaFtsh482S7" },
     { name: "Blu Blu Beaches & Rocks", link: "https://maps.app.goo.gl/AtbUrCNFHkohNMGs6" },
     { name: "Stores with Personality", link: "https://maps.app.goo.gl/qDnHxH3T9r1epEC47" },
