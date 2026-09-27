@@ -9,12 +9,14 @@ export default function travel({ darkMode }: Props) {
 
   const mapTrips = [
     { name: "A List of my Fav Third Spaces", link: "https://maps.app.goo.gl/oBDuXYvcSX5aL7S5A" },
-    { name: "Chef's Kiss (Restaurants) ", link: "https://maps.app.goo.gl/JbEjrwxZLfWMH6re9" },
-    { name: "Dessert Stomach", link: "https://maps.app.goo.gl/xZKXj6ZaFtsh482S7" },
+    { name: "Museums & Galleries", link:"https://maps.app.goo.gl/QQ6qbWmZcfDRQA3r7"},
     { name: "Blu Blu Beaches & Rocks", link: "https://maps.app.goo.gl/AtbUrCNFHkohNMGs6" },
     { name: "Stores with Personality", link: "https://maps.app.goo.gl/qDnHxH3T9r1epEC47" },
+
+    { name: "Chef's Kiss (Restaurants) ", link: "https://maps.app.goo.gl/JbEjrwxZLfWMH6re9" },
     { name: "Fav Matcha Spots", link: "https://maps.app.goo.gl/PnwVcwjVEJ78QE5r9"},
-    { name: "Cafés with a View", link: "https://maps.app.goo.gl/Dy14kB4tfKHne2U28"}
+    { name: "Cafés with a View", link: "https://maps.app.goo.gl/Dy14kB4tfKHne2U28"},
+    { name: "Dessert Stomach", link: "https://maps.app.goo.gl/xZKXj6ZaFtsh482S7" }
   ];
 
   // Choose logo paths based on dark mode
