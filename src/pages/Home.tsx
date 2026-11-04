@@ -79,7 +79,7 @@ export default function Home({ darkMode }: Props) {
             <h2>Contact</h2>
             <div className="contact-icons">
               <img src={icons.email} alt="Email logo" />
-              <p>rosh.editzz@gmail.com</p>
+              <p>roshanibankar.work@gmail.com</p>
             </div>
           </div>
         </div>
