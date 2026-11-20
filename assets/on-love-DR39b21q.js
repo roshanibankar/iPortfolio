@@ -52,12 +52,15 @@ Taking chances with getting to know people increases the chance you’ll experie
 
 ## 5. Tolerate Uncertainty But Never Accept Aimlessness
 
-Life is unpredictable and that is entirely tolerable. What is completely unacceptable is a lack of direction, drive or intention. A partner must have their own goals and a clear sense of purpose. Without it, you'll be signing up for a waiting game, which will eventually compromise your own growth and peace.
+Life is unpredictable and that is entirely tolerable. What is completely unacceptable is a lack of direction, drive or intention. Choose someone who has their own goals and a clear sense of purpose—without it, you'll be signing up for a waiting game that will eventually compromise your own growth and peace.
+
+And equally, they must trust yours. When you are in the middle of building something hard, you don't need someone standing over you with a stopwatch, constantly bringing up your progress or questioning your pace. You need someone who genuinely believes you have it in you to make it and who chooses to stand quietly by your side while the outcome is still in motion. Oftentimes, that quiet, unshakable belief is the exact fuel that gets people where they want to go.
 
 ## 6. Presence Over Maintenance
 
-A high-maintenance relationship drains your spirit. A high-presence relationship sustains it. You do not need a connection that requires a constant performance or walking on eggshells to keep alive. You need an honest, steady, unfiltered presence. You don't have to entertain them to make them stay on tiring days.
-And for some iconic psychos who say- what if people give up too easily?   
+A high-maintenance relationship drains your spirit. A high-presence relationship sustains it. You do not need a connection that requires a constant performance or walking on eggshells to keep it alive. You need an honest, steady, unfiltered presence—it shouldn't be about entertaining them just to make them stay on boring days.
+
+And for some iconic psychos who would say, "What if people give up too easily while dating someone high-maintenance?" I'll just say:
 >stop confusing "low-maintenance" with "zero-effort"
 
 ## 7. The Goal is to be Known, Not Just Chosen
@@ -94,7 +97,7 @@ Stop interviewing people like HR managers about where they see themselves in a d
 
 ## 12. The Rhythm Over the Match
 
-Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies, eating styles and books is the sweet spot, enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs).
+Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies, eating styles and books is the sweet spot, enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs, jk).
 
 ## 13. Define Your Readiness
 
@@ -102,7 +105,7 @@ Love doesn't drop out of the sky into a chaotic mind; it demands self-awareness.
 
 ## 14. The Best-Friend Recognition
 
-When the right person steps into your lighthouse, it will feel like a quiet stillness, as if you've always known them. It will feel like your best friend whom you’ve somehow known forever—someone who you’d think of in both the joyful and sad moments of life. It’ll be like a living embodiment of the line-
+When the right person steps into your lighthouse, it will feel like a quiet stillness, as if you've always known them. It will feel like your best friend whom you’ve somehow known forever, someone who you’d think of in both the joyful and sad moments of life. It’ll be like a living embodiment of the line-
 
 > "It's always been you."
 
@@ -159,7 +162,8 @@ It’s about building something so solid that it easily outlasts us.
 
 
 
-> P.S They won't hit all the points on day 1 of meeting you. You just need someone who has the capacity and the desire to build them with you over time. 
+
+P.S Ofcourse they won't hit all the points on day 1 of meeting you. You just need someone who has the capacity and the desire to build them with you over time. 
 Keep your high standards. Don't lower the bar. Just remember to leave a little room for the chaotic, clumsy, human ways people try to reach it.
 
 **Cheers,**  
