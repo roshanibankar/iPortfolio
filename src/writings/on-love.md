@@ -50,7 +50,14 @@ Being chosen satisfies the ego; being deeply understood satisfies something much
 
 ## 4. Grand Gestures Must Honour the Quiet Days
 
-Grand gestures should elevate the ordinary, not compensate for the absence of everyday effort. The most meaningful surprises are rooted in the little things someone remembers about you.
+People generally think grand gestures are performative and are often dismissed as being hollow. But imagine this scenario:
+
+On a weekend, he doesn't just take me out; he organizes a private, after-hours tour of a landmark building I’ve been dying to see, completely cleared out just for the two of us. Inside, he has set up a small table with the exact street food we always grab on a random Tuesday and then he hands me a rare, out-of-print architecture book I mentioned in passing months ago. Seems like he’s McDreamy, right?
+
+And don’t get me wrong, a woman can do these gestures too, in the ways he’d love.
+
+An authentic grand gesture is never a loud distraction or a generic stunt. It is an explosive, vibrant new stroke painted across your daily routine. It takes familiar pieces of your life and elevates them; it doesn't try to replace or make up for the quiet Tuesdays, it honors them.
+
 
 ## 5. The Best-Friend Recognition
 
@@ -58,11 +65,12 @@ Find someone who feels like a best friend, someone you'd instinctively look for 
 
 ## 6. The Rhythm Over the Match
 
-Your tastes don't have to mirror each other, but your emotional rhythms, fundamental values and approaches to life should be compatible. Enjoy common ground without losing your individual identities.
+Your tastes don't have to be a perfect mirror image, but your emotional and intellectual rhythm must align. Personally, an eighty-percent crossover in music, movies, eating styles and books is the sweet spot, enough common ground to understand each other’s deepest references, while maintaining distinct identities (and still, absolutely no anime buffs, jk).
 
 ## 7. Healthy Fights
 
-A peaceful relationship doesn't mean a silent one. Disagreements are inevitable; contempt, manipulation, emotional withdrawal and ego-driven battles don't have to be. Learning to disagree without becoming opponents goes a long way.
+A peaceful home doesn't mean a silent one. A healthy relationship requires a clear protocol for disagreement: the absolute refusal to use the cold shoulder, emotional withdrawal or a war of "who is to blame" as weapons when things get tense. 
+Fight in your Pilates class or mediation class, sleep on the floor and fight, but just don't let your goddamn ego take the spotlight.
 
 ## 8. Aging & Decay
 
