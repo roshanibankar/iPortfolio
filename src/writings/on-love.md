@@ -76,9 +76,9 @@ Fight in your Pilates class or mediation class, sleep on the floor and fight, bu
 
 "The Forever" means holding space for the slow fading of the adventurous body. It means looking past youth, city walks, high energy plans and committing to care for each other through sickness, physical vulnerability and the slow quiet of aging.
 
-## 9. Building a Life Beyond Romance (formerly Cultural, Financial & Political Views)
+## 9. Building a Life Beyond Romance 
 
-Love alone cannot sustain a shared life. Cultural expectations, financial habits, political values, family priorities and fundamental beliefs about human dignity must be compatible enough to build a peaceful future.
+Love alone cannot sustain a shared life. Cultural expectations, financial habits, political values, family priorities, opinion on the idea of adopting foster kids, pets and fundamental beliefs about human dignity must be compatible enough to build a peaceful future.
 
 # II. Friendship & Family Love
 
@@ -138,7 +138,7 @@ Before looking outward, look inward. Ask yourself what you want from relationshi
 
 ## 21. Share Your Weight, But Never Outsource Your Gravity
 
-Be someone people can lean on, but don't make yourself responsible for fixing their lives. Your healing is yours, just as theirs is theirs. Trust people, accept support & remain independent at your core.
+Be someone people can lean on, but don't make yourself responsible for fixing their lives. Your healing is yours, just as theirs is theirs. Trust people, accept support but remain independent at your core.
 
 ## 22. Words and Actions Must Align
 
