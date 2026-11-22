@@ -61,6 +61,11 @@ type: poem
 - **Knowing How I Give and Receive Love**  
   Making space to communicate how I feel loved without expecting everyone to love exactly as I do boils down to mutual willingness and consideration in both directions rather than sameness.
 
+- **And lastly the distinction between platonic friendship and romantic partner**
+  The freedom to reach for each other with zero hesitation and the mutual willingness to make time for one another.
+  Someone who loves the weird me without dimming my light.
+
+
 ## P.S.
 
 Of course, nobody will embody all these qualities on day one. You don't need perfect people. You need people with the capacity, willingness, and desire to grow alongside you.
