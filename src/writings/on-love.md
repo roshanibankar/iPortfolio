@@ -4,7 +4,6 @@ date: 2026-11-22
 type: poem
 ---
 
-
 - The goal is to be known not just chosen
 
 - Shared curiosity and laughter rather than shared interests every-time
