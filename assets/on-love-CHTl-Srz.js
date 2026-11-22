@@ -1,4 +1,9 @@
-const e=`## A list of qualities I look for in Love [Romantic & Platonic & Self]
+const e=`---
+title: A list of qualities I look for in Love [Romantic & Platonic & Self]
+date: 2026-11-22
+type: poem
+---
+
 
 - The goal is to be known not just chosen
 
@@ -32,4 +37,11 @@ Ironically, that's not very cinematic.
 But most lasting love stories are built from a lot of Tuesdays, not from one perfect kiss where the leg pops.
 Same goes for catching up with friends, calling them for no reason to sometimes just to unwind if they feel like it too.
 
-- Knowing How I Give and Receive Love [making space to communicate how I feel loved without expecting everyone to love exactly as I do, boils down to mutual willingness and consideration in both directions rather than sameness]`;export{e as default};
+- Knowing How I Give and Receive Love [making space to communicate how I feel loved without expecting everyone to love exactly as I do, boils down to mutual willingness and consideration in both directions rather than sameness]
+
+
+P.S. Of course, nobody will embody all these qualities on day one. You don't need perfect people. You need people with the capacity, willingness and desire to grow alongside you.
+Keep your high standards. Don't abandon your values. But leave a little room for the chaotic, clumsy, beautifully human ways people try to reach them.
+And to remember to be the kind of person you hope to find in others.
+
+`;export{e as default};
