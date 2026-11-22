@@ -61,8 +61,10 @@ type: poem
 
 - **And lastly the distinction between platonic friendship and romantic partner**
 
-  The freedom to reach for each other with zero hesitation and the mutual willingness to make time for one another.
-  Someone who loves the weird me without dimming my light.
+  A best friend who's hot.
+
+
+
 
 
 ## P.S.
