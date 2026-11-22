@@ -1,5 +1,5 @@
 ---
-title: A List of Qualities I Look for in Love (Romantic, Platonic & Self)
+title: On Love (Romantic, Platonic & Self)
 date: 2026-11-22
 type: poem
 ---
