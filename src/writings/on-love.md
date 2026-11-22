@@ -56,10 +56,8 @@ type: poem
 
   But most lasting love stories are built from a lot of Tuesdays, not from one perfect kiss where the leg pops.
 
-  The same goes for catching up with friends—calling them for no reason, sometimes just to unwind, if they feel like it too.
+  The same goes for catching up with friends—calling them for no reason, sometimes just to unwind, if they feel like it too. But it also means learning how the other person receives love. I don't expect everyone to express affection the way I do, but I value the willingness to understand what makes each other feel seen, appreciated and loved.
 
-- **Knowing How I Give and Receive Love**  
-  Making space to communicate how I feel loved without expecting everyone to love exactly as I do boils down to mutual willingness and consideration in both directions rather than sameness.
 
 - **And lastly the distinction between platonic friendship and romantic partner**
   The freedom to reach for each other with zero hesitation and the mutual willingness to make time for one another.
