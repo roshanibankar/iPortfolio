@@ -7,6 +7,7 @@ type: poem
 - **The goal is to be known, not just chosen.**
 
 - **Shared curiosity and laughter rather than shared interests every time.**
+  ofc honey there will some overlap of interest or how can you even be friends? initial compatibility is why you pick them, while daily choice is why you stay.
 
 - **Accepting the Double-Edged Sword Risk**  
   Opening yourself to meaningful connections also opens you to disappointment and heartbreak. They're a package deal. Don't let the possibility of losing people make you unwilling to welcome them.
@@ -26,7 +27,7 @@ type: poem
 
   On a weekend, he doesn't just take me out; he organizes a private, after-hours tour of a landmark building I've been dying to see, completely cleared out just for the two of us. Inside, he has set up a small table with the exact street food we always grab on a random Tuesday, and then he hands me a rare, out-of-print architecture book I mentioned in passing months ago. Seems like he's McDreamy, right?
 
-  And don't get me wrong, a woman can do these gestures too, in the ways she'd love.
+  And don't get me wrong, a woman can do these gestures too, in the ways he'd love.
 
   An authentic grand gesture is never a loud distraction or a generic stunt. It is an explosive, vibrant new stroke painted across your daily routine. It takes familiar pieces of your life and elevates them; it doesn't try to replace or make up for the quiet Tuesdays, but honors them.
 
@@ -61,9 +62,7 @@ type: poem
 
 - **And lastly the distinction between platonic friendship and romantic partner**
 
-  A best friend who's hot.
-
-
+  Chemistry with best friend who is hot.
 
 
 
