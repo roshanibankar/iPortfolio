@@ -5,7 +5,7 @@ type: Article
 ---
 
 - **The goal is to be known, not just chosen.**
-  Being chosen can feel wonderful, but being known means someone makes room for the real, changing you, not just the version they imagined or the role you fill in their life. That's why i often find it funny when some people say they wanna have wife/husband and kids, but not try to become a husband/wife and a great parent.
+  Being chosen can feel wonderful, but being known means someone makes room for the real, changing you, not just the version they imagined or the role you fill in their life. That's why i often find it funny when some people say they wanna have wife/husband and kids, but not try to become a great husband/wife and a great parent.
 
 
 - **Shared curiosity and laughter rather than shared interests every time.**
@@ -19,7 +19,7 @@ type: Article
 
 
 - **Share My Weight, But Never Outsource My Gravity**  
-  I want to be independent at my own core, but at the same time trust them, give them the benefit of the doubt and try to understand *why* before jumping to conclusions.
+  I want to be independent at my own core, but at the same time trust them, give them the benefit of the doubt and try to understand *why* before jumping to conclusions. 
 
 
 - **Legacy, Aging, Decay**  
