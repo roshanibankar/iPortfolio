@@ -1,25 +1,34 @@
 const e=`---
 title: On Love (Romantic, Platonic & Self)
 date: 2026-11-22
-type: poem
+type: Article
 ---
 
 - **The goal is to be known, not just chosen.**
+  Being chosen can feel wonderful, but being known means someone makes room for the real, changing you, not just the version they imagined or the role you fill in their life. That's why i often find it funny when some people say they wanna have wife/husband and kids, but not try to become a husband/wife and a great parent.
+
 
 - **Shared curiosity and laughter rather than shared interests every time.**
-  ofc honey there will some overlap of interest or how can you even be friends? initial compatibility is why you pick them, while daily choice is why you stay.
+  Of course, there needs to be some overlap in interests, otherwise, what would initially bring two people together? Initial compatibility is often why you pick someone, but the willingness to remain curious about each other's worlds is a big part of why you stay.
+
+  You don't have to enjoy all the same things. You just have to enjoy discovering why the other person does. Sometimes, the best conversations come from interests you don't share, perspectives you hadn't considered, and laughing about things neither of you could have anticipated.
+
 
 - **Accepting the Double-Edged Sword Risk**  
   Opening yourself to meaningful connections also opens you to disappointment and heartbreak. They're a package deal. Don't let the possibility of losing people make you unwilling to welcome them.
 
+
 - **Share My Weight, But Never Outsource My Gravity**  
-  I want to be independent at my own core, but at the same time trust them, give them the benefit of the doubt, and try to understand *why* before jumping to conclusions.
+  I want to be independent at my own core, but at the same time trust them, give them the benefit of the doubt and try to understand *why* before jumping to conclusions.
+
 
 - **Legacy, Aging, Decay**  
-  Let yourself enjoy being someone's friend without constantly worrying about whether you're still their friend. People evolve, change their minds, and surprise you. Treat people like unfinished artwork: never assume you've figured someone out completely. Leave room to keep discovering the people you love rather than holding them hostage to an older version of themselves.
+  Let yourself enjoy being someone's friend without constantly worrying about whether you're still their friend. People evolve, change their minds and surprise you. Treat people like unfinished artwork, never assume you've figured someone out completely. Leave room to keep discovering the people you love rather than holding them hostage to an older version of themselves. So that one of those days when everyone occasionally finds their way back to the same dinner table, you'll have even more stories to tell.
+
 
 - **Accountability Is the Highest Form of Gentleness**  
   The ability to say, “I made a mistake and I'm sorry,” without shifting blame or invalidating someone's feelings is essential to every meaningful relationship. Accountability is how trust gets repaired.
+
 
 - **Grand Gestures Must Honor the Quiet Days**  
 
@@ -30,6 +39,7 @@ type: poem
   And don't get me wrong, a woman can do these gestures too, in the ways he'd love.
 
   An authentic grand gesture is never a loud distraction or a generic stunt. It is an explosive, vibrant new stroke painted across your daily routine. It takes familiar pieces of your life and elevates them; it doesn't try to replace or make up for the quiet Tuesdays, but honors them.
+
 
 - **Love Is a Choice on a Random Tuesday**
 
